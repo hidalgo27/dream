@@ -199,17 +199,233 @@
         </div>
     </section>
 
-    <section class="bg-dark py-3">
+    <section class="my-5">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="text-light font-weight-bold">GALAPAGOS ISLANDS VACATION</h1>
+                    <h1 class="text-red-primary display-4 text-red font-weight-bold">Peru Reisepakete Voll Anpassbar</h1>
+                    <p class="h4 text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="">
+    <section class="my-5">
+            <div class="container">
+                {{--<div class="row">--}}
+                    {{--<div class="col os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">--}}
+                        {{--<h5 class="">ncredible Travel Experiences</h5>--}}
+                        {{--<hr>--}}
+                        {{--<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                <div class="row align-items-center">
+                    <div class="col">
+                            <div class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
+                                <h4 class="text-secondary font-weight-bold">Willkommen Auf  KOLIBRI PERU TRAVEL</h4>
+                                <hr>
+                            </div>
+                            <div class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.2s">
+                                <p class="lead font-weight-normal text-secondary">Wir sind Ihre ideale Wahl für eine unvergessliche Reise durch Peru. Bei KOLIBRI PERU TRAVEL verbinden wir abwechslungreiche Natur mit der Kultur unserer Vorfahren, speziell ausgewählten Unterkünften und exzellentem Essen.</p>
+                                <p><b>Lassen Sie sich verzaubern von einer der mystischsten Kulturen dieser Erde.</b></p>
+                            </div>
+                    </div><!-- /.col-md-6 col -->
+                    <div class="col text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                            <div class="content-video-1">
+                                <img src="{{asset('images/video.jpg')}}" alt="video" class="w-100 rounded">
+                                <div class="content-video-btn-1">
+                                    <a href="https://youtu.be/Zk9J5xnTVMA"  class="html5lightbox content-vbtn-color-blue" data-width="700" data-height="500"><i class="fa fa-play-circle"></i></a>
+                                </div>
+                            </div>
+                    </div><!-- /.col-md-6 col -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+    </section><!-- /.item -->
+
+    <section class="my-5 bg-light py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col text-center margin-bottom-30 os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <h2 class="font-weight-bold text-secondary">What it can do for you</h2>
+
+                    <div class="sec-title-div-3"></div>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <img src="{{asset('images/banners/home/cusco.jpg')}}" alt="content area" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Austrian Alps</h4>
+                            </div>
+                        </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">MUSCLE GROUP:</p>
+                                <p class="text-left m-0 small text-red-primary">Toning and shaping, Body Building.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.col-md-4 col -->
+                <div class="col text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Austrian Alps</h4>
+                            </div>
+                        </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">MUSCLE GROUP:</p>
+                                <p class="text-left m-0 small text-red-primary">Toning and shaping, Body Building.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.col-md-4 col -->
+                <div class="col text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <img src="{{asset('images/banners/home/titicaca.jpg')}}" alt="content area" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Austrian Alps</h4>
+                            </div>
+                        </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">MUSCLE GROUP:</p>
+                                <p class="text-left m-0 small text-red-primary">Toning and shaping, Body Building.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.col-md-4 col -->
+            </div><!-- /.row -->
+
+            <div class="row d-none">
+
+                <div class="col text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="content-area-2">
+                        <div class="row">
+                            <div class="col ">
+                                <img src="images/travel/content-area-1.png" alt="content area" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            <div class="travel-duration bg-red-primary text-center ml-3">
+                                <p class="date text-white m-0">22</p>
+                                <p class="days text-white m-0">days</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col-9">
+                                <h6 class="text-left">Austrian Alps</h6>
+                            </div>
+                            <div class="col-3">
+                                <h6 class="text-red-primary">$200.00</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.col-md-4 col -->
+                <div class="col text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="content-area-2">
+                        <div class="row">
+                            <div class="col ">
+                                <img src="images/travel/content-area-1.png" alt="content area" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="travel-duration bg-red-primary text-center ml-3">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0">days</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col-9">
+                                <h6 class="text-left">Austrian Alps</h6>
+                            </div>
+                            <div class="col-3">
+                                <h6 class="text-red-primary">$200.00</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.col-md-4 col -->
+                <div class="col text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="content-area-2">
+                        <div class="row">
+                            <div class="col ">
+                                <img src="images/travel/content-area-1.png" alt="content area" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="travel-duration bg-red-primary text-center ml-3">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0">days</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col-9">
+                                <h6 class="text-left">Austrian Alps</h6>
+                            </div>
+                            <div class="col-3">
+                                <h6 class="text-red-primary">$200.00</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.col-md-4 col -->
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+    </section>
+
+    <section class="d-none">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -252,18 +468,19 @@
         </div>
     </section>
 
-    <section class="mt-5 mb-2">
+    <section class="bg-white pt-3 pb-3">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
                     <h2 class="font-weight-bold text-secondary">Welcome to The World’s #1 Galapagos Travel Site</h2>
+                    <div class="sec-title-div-3"></div>
                     <p class="font-weight-normal lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugit mollitia neque officia quam quis reiciendis tenetur vero voluptatibus voluptatum. Architecto dolor eligendi eum inventore ipsum odio porro ut voluptatibus!</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="pt-5 bg-light">
+    <section class="pt-5 bg-light d-none">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -273,7 +490,62 @@
         </div>
     </section>
 
-    <section class="pt-1 pb-5 bg-light">
+    <section class="bg-white pb-5">
+        <div class="container">
+            <!------------------ Hover Effect Style : Demo - 16 --------------->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="box16">
+                            <img src="{{asset('images/banners/authentish.jpg')}}" class="w-100">
+                            <div class="box-content">
+                                <h3 class="title">Authentish</h3>
+                                <span class="post">View Packages</span>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box16">
+                            <img src="{{asset('images/banners/activamente.jpg')}}" class="w-100">
+                            <div class="box-content">
+                                <h3 class="title">activamente</h3>
+                                <span class="post">View Packages</span>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box16">
+                            <img src="{{asset('images/banners/clasico.jpg')}}" class="w-100">
+                            <div class="box-content">
+                                <h3 class="title">clásico</h3>
+                                <span class="post">View Packages</span>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-1 pb-5 bg-light d-none">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-9 col-md-8 col-xl-8 d-flex">
@@ -468,7 +740,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col">
-                            <div class="rounded-top p-2 bg-g-yellow h3 m-0 font-kalam text-center">MachuPicchu - Galapagos</div>
+                            {{--<div class="rounded-top p-2 bg-g-yellow h3 m-0 font-kalam text-center">MachuPicchu - Galapagos</div>--}}
                             <img src="{{asset('images/packages/gt1.jpg')}}" alt="" class="w-100">
                         </div>
                     </div>
@@ -582,11 +854,11 @@
                                         <!-- Add Scroll Bar -->
                                         <div class="swiper-scrollbar"></div>
                                     </div>
-                                    <div class="row mt-2">
-                                        <div class="col text-right">
-                                            <a href="" class="btn-link font-weight-normal text-secondary">Vew All MachuPicchu - Galapagos Packages <i class="fa fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
+                                    {{--<div class="row mt-2">--}}
+                                        {{--<div class="col text-right">--}}
+                                            {{--<a href="" class="btn-link font-weight-normal text-secondary">Vew All MachuPicchu - Galapagos Packages <i class="fa fa-chevron-right"></i></a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
                                 </div>
                             </div>
                         </div>
@@ -595,277 +867,141 @@
                 <div class="col">
                     <div class="row">
                         <div class="col">
-                            <div class="rounded-top p-2 bg-g-orange h3 m-0 font-kalam text-center text-white">Ecuador Tours</div>
-                            <img src="{{asset('images/packages/gt1.jpg')}}" alt="" class="w-100">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="bg-dark">
-                                        <div class="row text-center text-white">
-                                            <div class="col p-3 ">Tours</div>
-                                            <div class="col p-3 ">Duration</div>
-                                            <div class="col p-3 ">Per person from</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="swiper-container">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="list-group rounded-0">
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
-                                                                <div class="row">
-                                                                    <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold">6 Days <span class="text-g-orange">/</span> 5 Nights</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold"><sup class="text-g-orange">US$</sup>1035</small>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
-                                                                <div class="row">
-                                                                    <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold">6 Days <span class="text-g-orange">/</span> 5 Nights</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold"><sup class="text-g-orange">US$</sup>1035</small>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
-                                                                <div class="row">
-                                                                    <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold">6 Days <span class="text-g-orange">/</span> 5 Nights</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold"><sup class="text-g-orange">US$</sup>1035</small>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Add Scroll Bar -->
-                                        <div class="swiper-scrollbar"></div>
-                                    </div>
-                                    <div class="row mt-2">
-                                        <div class="col text-right">
-                                            <a href="" class="btn-link font-weight-normal text-secondary">Vew All Ecuador Tours Packages <i class="fa fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row py-5">
-                <div class="col">
-                    <div class="row">
-                        <div class="col">
-                            <div class="rounded-top p-2 bg-g-info h3 m-0 font-kalam text-center">Perú Tours</div>
-                            <img src="{{asset('images/packages/gt1.jpg')}}" alt="" class="w-100">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="bg-dark">
-                                        <div class="row text-center text-white">
-                                            <div class="col p-3 ">Tours</div>
-                                            <div class="col p-3 ">Duration</div>
-                                            <div class="col p-3 ">Per person from</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="swiper-container">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="list-group rounded-0">
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
-                                                                <div class="row">
-                                                                    <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold">6 Days <span class="text-g-info">/</span> 5 Nights</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold"><sup class="text-g-info">US$</sup>1035</small>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
-                                                                <div class="row">
-                                                                    <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold">6 Days <span class="text-g-info">/</span> 5 Nights</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold"><sup class="text-g-info">US$</sup>1035</small>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
-                                                                <div class="row">
-                                                                    <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold">6 Days <span class="text-g-info">/</span> 5 Nights</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold"><sup class="text-g-info">US$</sup>1035</small>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Add Scroll Bar -->
-                                        <div class="swiper-scrollbar"></div>
-                                    </div>
-                                    <div class="row mt-2">
-                                        <div class="col text-right">
-                                            <a href="" class="btn-link font-weight-normal text-secondary">Vew All Perú Tours <i class="fa fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col">
-                            <div class="rounded-top p-2 bg-g-green h3 m-0 font-kalam text-center">Galapagos Cruises</div>
-                            <img src="{{asset('images/packages/gt1.jpg')}}" alt="" class="w-100">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="bg-dark">
-                                        <div class="row text-center text-white">
-                                            <div class="col p-3 ">Tours</div>
-                                            <div class="col p-3 ">Duration</div>
-                                            <div class="col p-3 ">Per person from</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="swiper-container">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="list-group rounded-0">
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
-                                                                <div class="row">
-                                                                    <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold">6 Days <span class="text-g-green">/</span> 5 Nights</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold"><sup class="text-g-green">US$</sup>1035</small>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
-                                                                <div class="row">
-                                                                    <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold">6 Days <span class="text-g-green">/</span> 5 Nights</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold"><sup class="text-g-green">US$</sup>1035</small>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
-                                                                <div class="row">
-                                                                    <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold">6 Days <span class="text-g-green">/</span> 5 Nights</small>
-                                                                    </div>
-                                                                    <div class="col text-center">
-                                                                        <small class="font-weight-bold"><sup class="text-g-green">US$</sup>1035</small>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Add Scroll Bar -->
-                                        <div class="swiper-scrollbar"></div>
-                                    </div>
-                                    <div class="row mt-2">
-                                        <div class="col text-right">
-                                            <a href="" class="btn-link font-weight-normal text-secondary">Vew All Galapagos Cruises <i class="fa fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            {{--<div class="rounded-top p-2 h3 m-0 font-kalam text-center">Ecuador Tours</div>--}}
+                            <img src="{{asset('images/banners/clasico.jpg')}}" alt="" class="w-100">
                         </div>
                     </div>
                 </div>
             </div>
 
-
-
-
-
-
-
+            <div class="row my-5">
+                <div class="col text-center">
+                    <a href="" class="btn btn-lg btn-info">View All Tours</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    @include('layouts.page.form-quote')
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="font-weight-bold text-secondary">WARUM SIE NACH PERU  REISEN SOLLEN</h2>
+                    <div class="sec-title-div-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="bg-light pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    {{--<h5 class="card-title">Special title treatment</h5>--}}
+                                    <span class="py-3 px-4 bg-red-light rounded rounded-circle h3 font-weight-bold text-white float-left m-3">1</span>
+                                    <p class="card-text">Orte besuchen, wo das Inkareich und anderen peruanischen Kulturen seinen Ursprung hatte.Cusco; die ehemalige Inka-Haupstadt, ist der Ausgangspunkt für den Besuch von Machupicchu; südliche küste mit den tierreichen Ballestas Insel, der versteckten Huacachina Oase, den mysteriösen Nazca-Linien; Arequipa “die weisse Stadt”, führt zu eine der tiefsten Schlucht der Welt und Titicacasee, die höchste schiffbarste See der Welt.</p>
+                                    {{--<a href="#" class="btn btn-primary">Go somewhere</a>--}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    {{--<h5 class="card-title">Special title treatment</h5>--}}
+                                    <span class="py-3 px-4 bg-red-light rounded rounded-circle h3 font-weight-bold text-white float-left m-3">2</span>
+                                    <p class="card-text">Orte besuchen, wo das Inkareich und anderen peruanischen Kulturen seinen Ursprung hatte.Cusco; die ehemalige Inka-Haupstadt, ist der Ausgangspunkt für den Besuch von Machupicchu; südliche küste mit den tierreichen Ballestas Insel, der versteckten Huacachina Oase, den mysteriösen Nazca-Linien; Arequipa “die weisse Stadt”, führt zu eine der tiefsten Schlucht der Welt und Titicacasee, die höchste schiffbarste See der Welt.</p>
+                                    {{--<a href="#" class="btn btn-primary">Go somewhere</a>--}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    {{--<h5 class="card-title">Special title treatment</h5>--}}
+                                    <span class="py-3 px-4 bg-red-light rounded rounded-circle h3 font-weight-bold text-white float-left m-3">3</span>
+                                    <p class="card-text">Orte besuchen, wo das Inkareich und anderen peruanischen Kulturen seinen Ursprung hatte.Cusco; die ehemalige Inka-Haupstadt, ist der Ausgangspunkt für den Besuch von Machupicchu; südliche küste mit den tierreichen Ballestas Insel, der versteckten Huacachina Oase, den mysteriösen Nazca-Linien; Arequipa “die weisse Stadt”, führt zu eine der tiefsten Schlucht der Welt und Titicacasee, die höchste schiffbarste See der Welt.</p>
+                                    {{--<a href="#" class="btn btn-primary">Go somewhere</a>--}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    {{--<h5 class="card-title">Special title treatment</h5>--}}
+                                    <span class="py-3 px-4 bg-red-light rounded rounded-circle h3 font-weight-bold text-white float-left m-3">4</span>
+                                    <p class="card-text">Orte besuchen, wo das Inkareich und anderen peruanischen Kulturen seinen Ursprung hatte.Cusco; die ehemalige Inka-Haupstadt, ist der Ausgangspunkt für den Besuch von Machupicchu; südliche küste mit den tierreichen Ballestas Insel, der versteckten Huacachina Oase, den mysteriösen Nazca-Linien; Arequipa “die weisse Stadt”, führt zu eine der tiefsten Schlucht der Welt und Titicacasee, die höchste schiffbarste See der Welt.</p>
+                                    {{--<a href="#" class="btn btn-primary">Go somewhere</a>--}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    {{--<h5 class="card-title">Special title treatment</h5>--}}
+                                    <span class="py-3 px-4 bg-red-light rounded rounded-circle h3 font-weight-bold text-white float-left m-3">5</span>
+                                    <p class="card-text">Orte besuchen, wo das Inkareich und anderen peruanischen Kulturen seinen Ursprung hatte.Cusco; die ehemalige Inka-Haupstadt, ist der Ausgangspunkt für den Besuch von Machupicchu; südliche küste mit den tierreichen Ballestas Insel, der versteckten Huacachina Oase, den mysteriösen Nazca-Linien; Arequipa “die weisse Stadt”, führt zu eine der tiefsten Schlucht der Welt und Titicacasee, die höchste schiffbarste See der Welt.</p>
+                                    {{--<a href="#" class="btn btn-primary">Go somewhere</a>--}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    {{--<h5 class="card-title">Special title treatment</h5>--}}
+                                    <span class="py-3 px-4 bg-red-light rounded rounded-circle h3 font-weight-bold text-white float-left m-3">6</span>
+                                    <p class="card-text">Orte besuchen, wo das Inkareich und anderen peruanischen Kulturen seinen Ursprung hatte.Cusco; die ehemalige Inka-Haupstadt, ist der Ausgangspunkt für den Besuch von Machupicchu; südliche küste mit den tierreichen Ballestas Insel, der versteckten Huacachina Oase, den mysteriösen Nazca-Linien; Arequipa “die weisse Stadt”, führt zu eine der tiefsten Schlucht der Welt und Titicacasee, die höchste schiffbarste See der Welt.</p>
+                                    {{--<a href="#" class="btn btn-primary">Go somewhere</a>--}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    {{--<h5 class="card-title">Special title treatment</h5>--}}
+                                    <span class="py-3 px-4 bg-red-light rounded rounded-circle h3 font-weight-bold text-white float-left m-3">7</span>
+                                    <p class="card-text">Orte besuchen, wo das Inkareich und anderen peruanischen Kulturen seinen Ursprung hatte.Cusco; die ehemalige Inka-Haupstadt, ist der Ausgangspunkt für den Besuch von Machupicchu; südliche küste mit den tierreichen Ballestas Insel, der versteckten Huacachina Oase, den mysteriösen Nazca-Linien; Arequipa “die weisse Stadt”, führt zu eine der tiefsten Schlucht der Welt und Titicacasee, die höchste schiffbarste See der Welt.</p>
+                                    {{--<a href="#" class="btn btn-primary">Go somewhere</a>--}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    @include('layouts.page.form-quote')
+    @push('scripts')
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                responsiveClass:true,
+                autoplay:true,
+                autoplayTimeout:10000,
+                autoplayHoverPause:true,
+                responsive:{
+                    0:{
+                        items:1,
+                        nav:false
+                    },
+                    600:{
+                        items:3,
+                        nav:false
+                    },
+                    1000:{
+                        items:1,
+                        nav:false,
+                        loop:false
+                    }
+                }
+            })
+        </script>
+    @endpush
 @stop
