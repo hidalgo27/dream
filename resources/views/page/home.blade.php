@@ -6,17 +6,17 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-4 align-items-center">
-                        <img src="{{asset('images/logo-galapagos.png')}}" alt="" class="w-100">
+                        <img src="{{asset('images/logo-dream.png')}}" alt="" class="w-100">
                     </div>
                     <div class="col">
-                        <p class="m-0 font-kalam h5 text-info">Perú & Ecuador Especialist!</p>
+                        {{--<p class="m-0 font-kalam h5 text-info">Perú & Ecuador Especialist!</p>--}}
                     </div>
                     <div class="col-auto text-right">
-                        <p class="font-kalam m-0 text-secondary">Part of group GOTOPERU |
-                            <a href="" class="h5"><i class="fab fa-facebook-square"></i></a>
-                            <a href="" class="h5"><i class="fab fa-twitter"></i></a>
-                            <a href="" class="h5"><i class="fab fa-youtube"></i></a> |
-                            <a href="" class="btn btn-g-orange btn-lg font-philosopher">Inquire Now</a>
+                        <p class="m-0 text-secondary">
+                            {{--<a href="" class="h5"><i class="fab fa-facebook-square"></i></a>--}}
+                            {{--<a href="" class="h5"><i class="fab fa-twitter"></i></a>--}}
+                            {{--<a href="" class="h5"><i class="fab fa-youtube"></i></a> |--}}
+                            <a href="" class="btn btn-red-primary font-weight-bold btn-lg">Pregunte Ahora</a>
                         </p>
                     </div>
                 </div>
@@ -30,24 +30,24 @@
                             <li>
                                 <a class="has-arrow" href="#">
                                     <span class="fa fa-fw fa-github fa-lg"></span>
-                                    metisMenu
+                                    Reisevarianten
                                 </a>
                                 <ul aria-expanded="true">
                                     <li>
-                                        <a href="https://github.com/onokumus/metisMenu">
-                                            <span class="fa fa-fw fa-code-fork"></span> Fork
+                                        <a href="#">
+                                            <span class="fa fa-fw fa-code-fork"></span> Rundreise
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://github.com/onokumus/metisMenu">
-                                            <span class="fa fa-fw fa-star"></span> Star
+                                        <a href="#">
+                                            <span class="fa fa-fw fa-star"></span> Reisebausteine
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="https://github.com/onokumus/metisMenu/issues">
-                                            <span class="fa fa-fw fa-exclamation-triangle"></span> Issues
-                                        </a>
-                                    </li>
+                                    {{--<li>--}}
+                                        {{--<a href="https://github.com/onokumus/metisMenu/issues">--}}
+                                            {{--<span class="fa fa-fw fa-exclamation-triangle"></span> Issues--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
                                 </ul>
                             </li>
                             <li>
@@ -179,6 +179,18 @@
                             {{--</div>--}}
                             <div class="col">
                                 <h2 class="font-philosopher h1 text-white">Plan & Book your <span class="d-block">Dream Galapagos Vacation</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item"><img src="{{asset('images/sliders/slider-6.jpg')}}"/>
+                    <div class="container">
+                        <div class="slider-content row align-items-center">
+                            {{--<div class="container">--}}
+                            {{--<div class="slider-controls"><a class="slider-prev" href="#onceki"> </a><a class="slider-next" href="#sonraki"></a></div>--}}
+                            {{--</div>--}}
+                            <div class="col">
+                                <h2 class="font-philosopher h1 text-white">Plan & Book your <span class="d-block">Titicaca</span></h2>
                             </div>
                         </div>
                     </div>
