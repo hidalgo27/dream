@@ -29,18 +29,20 @@
                         <ul class="metismenu" id="menu1">
                             <li>
                                 <a class="has-arrow" href="#">
-                                    <span class="fa fa-fw fa-github fa-lg"></span>
+                                    {{--<span class="fa fa-fw fa-github fa-lg"></span>--}}
                                     Reisevarianten
                                 </a>
                                 <ul aria-expanded="true">
                                     <li>
                                         <a href="#">
-                                            <span class="fa fa-fw fa-code-fork"></span> Rundreise
+                                            {{--<span class="fa fa-fw fa-code-fork"></span> --}}
+                                            Rundreise
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <span class="fa fa-fw fa-star"></span> Reisebausteine
+                                            {{--<span class="fa fa-fw fa-star"></span> --}}
+                                            Reisebausteine
                                         </a>
                                     </li>
                                     {{--<li>--}}
@@ -51,47 +53,47 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="has-arrow" href="#" aria-expanded="false">Menu 0</a>
-                                <ul aria-expanded="false">
-                                    <li><a href="#">item 0.1</a></li>
-                                    <li><a href="#">item 0.2</a></li>
-                                    <li><a href="http://onokumus.com">onokumus</a></li>
-                                    <li><a href="#">item 0.4</a></li>
-                                </ul>
+                                <a class="has-arrow" href="#" aria-expanded="false">Planen Sie Ihre Reise</a>
+                                {{--<ul aria-expanded="false">--}}
+                                    {{--<li><a href="#">item 0.1</a></li>--}}
+                                    {{--<li><a href="#">item 0.2</a></li>--}}
+                                    {{--<li><a href="http://onokumus.com">onokumus</a></li>--}}
+                                    {{--<li><a href="#">item 0.4</a></li>--}}
+                                {{--</ul>--}}
                             </li>
                             <li id="removable">
-                                <a class="has-arrow" href="#" aria-expanded="false">Menu 1</a>
+                                <a class="has-arrow" href="#" aria-expanded="false">Über Uns</a>
                                 <ul aria-expanded="false">
-                                    <li><a href="#">item 1.1</a></li>
-                                    <li><a href="#">item 1.2</a></li>
-                                    <li>
-                                        <a class="has-arrow" href="#" aria-expanded="false">Menu 1.3</a>
-                                        <ul aria-expanded="false">
-                                            <li><a href="#">item 1.3.1</a></li>
-                                            <li><a href="#">item 1.3.2</a></li>
-                                            <li><a href="#">item 1.3.3</a></li>
-                                            <li><a href="#">item 1.3.4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">item 1.4</a></li>
-                                    <li>
-                                        <a class="has-arrow" href="#" aria-expanded="false">Menu 1.5</a>
-                                        <ul aria-expanded="false">
-                                            <li><a href="#">item 1.5.1</a></li>
-                                            <li><a href="#">item 1.5.2</a></li>
-                                            <li><a href="#">item 1.5.3</a></li>
-                                            <li><a href="#">item 1.5.4</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="#">Über Kolibri Peru Travel</a></li>
+                                    <li><a href="#">Feedback</a></li>
+                                    {{--<li>--}}
+                                        {{--<a class="has-arrow" href="#" aria-expanded="false">Menu 1.3</a>--}}
+                                        {{--<ul aria-expanded="false">--}}
+                                            {{--<li><a href="#">item 1.3.1</a></li>--}}
+                                            {{--<li><a href="#">item 1.3.2</a></li>--}}
+                                            {{--<li><a href="#">item 1.3.3</a></li>--}}
+                                            {{--<li><a href="#">item 1.3.4</a></li>--}}
+                                        {{--</ul>--}}
+                                    {{--</li>--}}
+                                    {{--<li><a href="#">item 1.4</a></li>--}}
+                                    {{--<li>--}}
+                                        {{--<a class="has-arrow" href="#" aria-expanded="false">Menu 1.5</a>--}}
+                                        {{--<ul aria-expanded="false">--}}
+                                            {{--<li><a href="#">item 1.5.1</a></li>--}}
+                                            {{--<li><a href="#">item 1.5.2</a></li>--}}
+                                            {{--<li><a href="#">item 1.5.3</a></li>--}}
+                                            {{--<li><a href="#">item 1.5.4</a></li>--}}
+                                        {{--</ul>--}}
+                                    {{--</li>--}}
                                 </ul>
                             </li>
                             <li>
-                                <a class="has-arrow" href="#" aria-expanded="false">Menu 2</a>
+                                <a class="has-arrow" href="#" aria-expanded="false">Über Peru</a>
                                 <ul aria-expanded="false">
-                                    <li><a href="#">item 2.1</a></li>
-                                    <li><a href="#">item 2.2</a></li>
-                                    <li><a href="#">item 2.3</a></li>
-                                    <li><a href="#">item 2.4</a></li>
+                                    <li><a href="#">Hohenanpassung</a></li>
+                                    <li><a href="#">Information</a></li>
+                                    {{--<li><a href="#">item 2.3</a></li>--}}
+                                    {{--<li><a href="#">item 2.4</a></li>--}}
                                 </ul>
                             </li>
                         </ul>
@@ -151,7 +153,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-g-orange btn-block btn-lg font-philosopher">Submit</button>
+                            <button type="submit" class="btn btn-red-dark btn-block btn-lg">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -166,7 +168,7 @@
                             {{--<div class="slider-controls"><a class="slider-prev" href="#onceki"> </a><a class="slider-next" href="#sonraki"></a></div>--}}
                             {{--</div>--}}
                             <div class="col">
-                                <h2 class="font-philosopher h1 text-white">Plan & Book your <span class="d-block">Dream Galapagos Vacation</span></h2>
+                                <h2 class="display-4 font-weight-bold text-white">Auf mystischen <span class="d-block">Wegen</span></h2>
                             </div>
                         </div>
                     </div>
@@ -178,7 +180,7 @@
                             {{--<div class="slider-controls"><a class="slider-prev" href="#onceki"> </a><a class="slider-next" href="#sonraki"></a></div>--}}
                             {{--</div>--}}
                             <div class="col">
-                                <h2 class="font-philosopher h1 text-white">Plan & Book your <span class="d-block">Dream Galapagos Vacation</span></h2>
+                                <h2 class="display-4 font-weight-bold text-white">Kraftorte <span class="d-block">Erleben</span></h2>
                             </div>
                         </div>
                     </div>
@@ -190,7 +192,7 @@
                             {{--<div class="slider-controls"><a class="slider-prev" href="#onceki"> </a><a class="slider-next" href="#sonraki"></a></div>--}}
                             {{--</div>--}}
                             <div class="col">
-                                <h2 class="font-philosopher h1 text-white">Plan & Book your <span class="d-block">Titicaca</span></h2>
+                                <h2 class="display-4 font-weight-bold text-white">Besonderen <span class="d-block">Menschen Begegnen</span></h2>
                             </div>
                         </div>
                     </div>
@@ -199,11 +201,11 @@
         </div>
     </section>
 
-    <section class="bg-dark py-3">
+    <section class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="text-light font-weight-bold">GALAPAGOS ISLANDS VACATION</h1>
+                    <h1 class="text-red-primary font-weight-bold">GALAPAGOS ISLANDS VACATION</h1>
                 </div>
             </div>
         </div>
