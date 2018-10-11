@@ -29,18 +29,20 @@
                         <ul class="metismenu" id="menu1">
                             <li>
                                 <a class="has-arrow" href="#">
-                                    <span class="fa fa-fw fa-github fa-lg"></span>
+                                    {{--<span class="fa fa-fw fa-github fa-lg"></span>--}}
                                     Reisevarianten
                                 </a>
                                 <ul aria-expanded="true">
                                     <li>
                                         <a href="#">
-                                            <span class="fa fa-fw fa-code-fork"></span> Rundreise
+                                            {{--<span class="fa fa-fw fa-code-fork"></span> --}}
+                                            Rundreise
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <span class="fa fa-fw fa-star"></span> Reisebausteine
+                                            {{--<span class="fa fa-fw fa-star"></span> --}}
+                                            Reisebausteine
                                         </a>
                                     </li>
                                     {{--<li>--}}
@@ -51,47 +53,47 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="has-arrow" href="#" aria-expanded="false">Menu 0</a>
-                                <ul aria-expanded="false">
-                                    <li><a href="#">item 0.1</a></li>
-                                    <li><a href="#">item 0.2</a></li>
-                                    <li><a href="http://onokumus.com">onokumus</a></li>
-                                    <li><a href="#">item 0.4</a></li>
-                                </ul>
+                                <a class="has-arrow" href="#" aria-expanded="false">Planen Sie Ihre Reise</a>
+                                {{--<ul aria-expanded="false">--}}
+                                    {{--<li><a href="#">item 0.1</a></li>--}}
+                                    {{--<li><a href="#">item 0.2</a></li>--}}
+                                    {{--<li><a href="http://onokumus.com">onokumus</a></li>--}}
+                                    {{--<li><a href="#">item 0.4</a></li>--}}
+                                {{--</ul>--}}
                             </li>
                             <li id="removable">
-                                <a class="has-arrow" href="#" aria-expanded="false">Menu 1</a>
+                                <a class="has-arrow" href="#" aria-expanded="false">Über Uns</a>
                                 <ul aria-expanded="false">
-                                    <li><a href="#">item 1.1</a></li>
-                                    <li><a href="#">item 1.2</a></li>
-                                    <li>
-                                        <a class="has-arrow" href="#" aria-expanded="false">Menu 1.3</a>
-                                        <ul aria-expanded="false">
-                                            <li><a href="#">item 1.3.1</a></li>
-                                            <li><a href="#">item 1.3.2</a></li>
-                                            <li><a href="#">item 1.3.3</a></li>
-                                            <li><a href="#">item 1.3.4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">item 1.4</a></li>
-                                    <li>
-                                        <a class="has-arrow" href="#" aria-expanded="false">Menu 1.5</a>
-                                        <ul aria-expanded="false">
-                                            <li><a href="#">item 1.5.1</a></li>
-                                            <li><a href="#">item 1.5.2</a></li>
-                                            <li><a href="#">item 1.5.3</a></li>
-                                            <li><a href="#">item 1.5.4</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="#">Über Kolibri Peru Travel</a></li>
+                                    <li><a href="#">Feedback</a></li>
+                                    {{--<li>--}}
+                                        {{--<a class="has-arrow" href="#" aria-expanded="false">Menu 1.3</a>--}}
+                                        {{--<ul aria-expanded="false">--}}
+                                            {{--<li><a href="#">item 1.3.1</a></li>--}}
+                                            {{--<li><a href="#">item 1.3.2</a></li>--}}
+                                            {{--<li><a href="#">item 1.3.3</a></li>--}}
+                                            {{--<li><a href="#">item 1.3.4</a></li>--}}
+                                        {{--</ul>--}}
+                                    {{--</li>--}}
+                                    {{--<li><a href="#">item 1.4</a></li>--}}
+                                    {{--<li>--}}
+                                        {{--<a class="has-arrow" href="#" aria-expanded="false">Menu 1.5</a>--}}
+                                        {{--<ul aria-expanded="false">--}}
+                                            {{--<li><a href="#">item 1.5.1</a></li>--}}
+                                            {{--<li><a href="#">item 1.5.2</a></li>--}}
+                                            {{--<li><a href="#">item 1.5.3</a></li>--}}
+                                            {{--<li><a href="#">item 1.5.4</a></li>--}}
+                                        {{--</ul>--}}
+                                    {{--</li>--}}
                                 </ul>
                             </li>
                             <li>
-                                <a class="has-arrow" href="#" aria-expanded="false">Menu 2</a>
+                                <a class="has-arrow" href="#" aria-expanded="false">Über Peru</a>
                                 <ul aria-expanded="false">
-                                    <li><a href="#">item 2.1</a></li>
-                                    <li><a href="#">item 2.2</a></li>
-                                    <li><a href="#">item 2.3</a></li>
-                                    <li><a href="#">item 2.4</a></li>
+                                    <li><a href="#">Hohenanpassung</a></li>
+                                    <li><a href="#">Information</a></li>
+                                    {{--<li><a href="#">item 2.3</a></li>--}}
+                                    {{--<li><a href="#">item 2.4</a></li>--}}
                                 </ul>
                             </li>
                         </ul>
@@ -151,7 +153,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-g-orange btn-block btn-lg font-philosopher">Submit</button>
+                            <button type="submit" class="btn btn-red-dark btn-block btn-lg">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -166,7 +168,7 @@
                             {{--<div class="slider-controls"><a class="slider-prev" href="#onceki"> </a><a class="slider-next" href="#sonraki"></a></div>--}}
                             {{--</div>--}}
                             <div class="col">
-                                <h2 class="font-philosopher h1 text-white">Plan & Book your <span class="d-block">Dream Galapagos Vacation</span></h2>
+                                <h2 class="display-4 font-weight-bold text-white">Auf mystischen <span class="d-block">Wegen</span></h2>
                             </div>
                         </div>
                     </div>
@@ -178,7 +180,7 @@
                             {{--<div class="slider-controls"><a class="slider-prev" href="#onceki"> </a><a class="slider-next" href="#sonraki"></a></div>--}}
                             {{--</div>--}}
                             <div class="col">
-                                <h2 class="font-philosopher h1 text-white">Plan & Book your <span class="d-block">Dream Galapagos Vacation</span></h2>
+                                <h2 class="display-4 font-weight-bold text-white">Kraftorte <span class="d-block">Erleben</span></h2>
                             </div>
                         </div>
                     </div>
@@ -190,7 +192,7 @@
                             {{--<div class="slider-controls"><a class="slider-prev" href="#onceki"> </a><a class="slider-next" href="#sonraki"></a></div>--}}
                             {{--</div>--}}
                             <div class="col">
-                                <h2 class="font-philosopher h1 text-white">Plan & Book your <span class="d-block">Titicaca</span></h2>
+                                <h2 class="display-4 font-weight-bold text-white">Besonderen <span class="d-block">Menschen Begegnen</span></h2>
                             </div>
                         </div>
                     </div>
@@ -205,7 +207,6 @@
                 <div class="col text-center">
                     <h1 class="text-red-primary display-4 text-red font-weight-bold">Peru Reisepakete Voll Anpassbar</h1>
                     <p class="h4 text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
                 </div>
             </div>
         </div>
@@ -976,8 +977,97 @@
 
 
 
-    @include('layouts.page.form-quote')
+    {{--@include('layouts.page.form-quote')--}}
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form action="#" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
+
+                        <!-- SmartWizard html -->
+                        <div id="smartwizard">
+                            <ul>
+                                <li><a href="#step-1">Orte<br /><small>step 1</small></a></li>
+                                <li><a href="#step-2">Zu wie vielen<br /><small>step 2</small></a></li>
+                                <li><a href="#step-3">Unterkunft<br /><small>step 3</small></a></li>
+                                <li><a href="#step-4">Transport<br /><small>step 4</small></a></li>
+                                <li><a href="#step-5">Daten<br /><small>step 5</small></a></li>
+                            </ul>
+
+                            <div>
+                                <div id="step-1">
+                                    <h2>Your Email Address</h2>
+                                    <div id="form-step-0" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="email">Email address:</label>
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Write your email address" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div id="step-2">
+                                    <h2>Your Name</h2>
+                                    <div id="form-step-1" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="name">Name:</label>
+                                            <input type="text" class="form-control" name="name" id="email" placeholder="Write your name" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="step-3">
+                                    <h2>Your Address</h2>
+                                    <div id="form-step-2" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="address">Address</label>
+                                            <textarea class="form-control" name="address" id="address" rows="3" placeholder="Write your address..." required></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="step-4" class="">
+                                    <h2>Terms and Conditions</h2>
+                                    <p>
+                                        Terms and conditions: Keep your smile :)
+                                    </p>
+                                    <div id="form-step-3" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="terms">I agree with the T&C</label>
+                                            <input type="checkbox" id="terms" data-error="Please accept the Terms and Conditions" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div id="step-5" class="">
+                                    <h2>Terms and Conditions</h2>
+                                    <p>
+                                        Terms and conditions: Keep your smile :)
+                                    </p>
+                                    <div id="form-step-4" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="terms">I agree with the T&C</label>
+                                            <input type="checkbox" id="terms" data-error="Please accept the Terms and Conditions" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     @push('scripts')
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
         <script>
             $('.owl-carousel').owlCarousel({
                 loop:true,
@@ -1002,6 +1092,80 @@
                     }
                 }
             })
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                // Toolbar extra buttons
+                var btnFinish = $('<button></button>').text('Finish')
+                    .addClass('btn btn-info')
+                    .on('click', function(){
+                        if( !$(this).hasClass('disabled')){
+                            var elmForm = $("#myForm");
+                            if(elmForm){
+                                elmForm.validator('validate');
+                                var elmErr = elmForm.find('.has-error');
+                                if(elmErr && elmErr.length > 0){
+                                    alert('Oops we still have error in the form');
+                                    return false;
+                                }else{
+                                    alert('Great! we are ready to submit form');
+                                    elmForm.submit();
+                                    return false;
+                                }
+                            }
+                        }
+                    });
+                var btnCancel = $('<button></button>').text('Cancel')
+                    .addClass('btn btn-danger')
+                    .on('click', function(){
+                        $('#smartwizard').smartWizard("reset");
+                        $('#myForm').find("input, textarea").val("");
+                    });
+
+
+
+                // Smart Wizard
+                $('#smartwizard').smartWizard({
+                    selected: 0,
+                    theme: 'dots',
+                    transitionEffect:'fade',
+                    toolbarSettings: {toolbarPosition: 'bottom',
+                        toolbarExtraButtons: [btnFinish, btnCancel]
+                    },
+                    anchorSettings: {
+                        markDoneStep: true, // add done css
+                        markAllPreviousStepsAsDone: true, // When a step selected by url hash, all previous steps are marked done
+                        removeDoneStepOnNavigateBack: true, // While navigate back done step after active step will be cleared
+                        enableAnchorOnDoneStep: true // Enable/Disable the done steps navigation
+                    }
+                });
+
+                $("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
+                    var elmForm = $("#form-step-" + stepNumber);
+                    // stepDirection === 'forward' :- this condition allows to do the form validation
+                    // only on forward navigation, that makes easy navigation on backwards still do the validation when going next
+                    if(stepDirection === 'forward' && elmForm){
+                        elmForm.validator('validate');
+                        var elmErr = elmForm.children('.has-error');
+                        if(elmErr && elmErr.length > 0){
+                            // Form validation failed
+                            return false;
+                        }
+                    }
+                    return true;
+                });
+
+                $("#smartwizard").on("showStep", function(e, anchorObject, stepNumber, stepDirection) {
+                    // Enable finish button only on last step
+                    if(stepNumber == 3){
+                        $('.btn-finish').removeClass('disabled');
+                    }else{
+                        $('.btn-finish').addClass('disabled');
+                    }
+                });
+
+            });
         </script>
     @endpush
 @stop

@@ -28,6 +28,7 @@
         "metismenu": "^2.7.9",
         "owl.carousel": "^2.3.4",
         "slick-carousel": "^1.8.1",
+        "smartwizard": "^4.3.1",
         "swiper": "^4.4.1",
         "vanilla-lazyload": "^10.17.0"
     }

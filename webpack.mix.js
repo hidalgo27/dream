@@ -21,6 +21,7 @@ mix.scripts([
     'node_modules/slick-carousel/slick/slick.min.js',
     'node_modules/metismenu/dist/metisMenu.min.js',
     'node_modules/owl.carousel/dist/owl.carousel.js',
+    'node_modules/smartwizard/dist/js/jquery.smartWizard.js',
     'resources/assets/js/vendors/viedolightbox/video.js',
     'resources/assets/js/vendors/jquery.waypoints.min.js',
 ], 'public/js/plugins.js');
