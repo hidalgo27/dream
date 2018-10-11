@@ -977,8 +977,97 @@
 
 
 
-    @include('layouts.page.form-quote')
+    {{--@include('layouts.page.form-quote')--}}
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form action="#" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
+
+                        <!-- SmartWizard html -->
+                        <div id="smartwizard">
+                            <ul>
+                                <li><a href="#step-1">Orte<br /><small>step 1</small></a></li>
+                                <li><a href="#step-2">Zu wie vielen<br /><small>step 2</small></a></li>
+                                <li><a href="#step-3">Unterkunft<br /><small>step 3</small></a></li>
+                                <li><a href="#step-4">Transport<br /><small>step 4</small></a></li>
+                                <li><a href="#step-5">Daten<br /><small>step 5</small></a></li>
+                            </ul>
+
+                            <div>
+                                <div id="step-1">
+                                    <h2>Your Email Address</h2>
+                                    <div id="form-step-0" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="email">Email address:</label>
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Write your email address" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div id="step-2">
+                                    <h2>Your Name</h2>
+                                    <div id="form-step-1" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="name">Name:</label>
+                                            <input type="text" class="form-control" name="name" id="email" placeholder="Write your name" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="step-3">
+                                    <h2>Your Address</h2>
+                                    <div id="form-step-2" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="address">Address</label>
+                                            <textarea class="form-control" name="address" id="address" rows="3" placeholder="Write your address..." required></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="step-4" class="">
+                                    <h2>Terms and Conditions</h2>
+                                    <p>
+                                        Terms and conditions: Keep your smile :)
+                                    </p>
+                                    <div id="form-step-3" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="terms">I agree with the T&C</label>
+                                            <input type="checkbox" id="terms" data-error="Please accept the Terms and Conditions" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div id="step-5" class="">
+                                    <h2>Terms and Conditions</h2>
+                                    <p>
+                                        Terms and conditions: Keep your smile :)
+                                    </p>
+                                    <div id="form-step-4" role="form" data-toggle="validator">
+                                        <div class="form-group">
+                                            <label for="terms">I agree with the T&C</label>
+                                            <input type="checkbox" id="terms" data-error="Please accept the Terms and Conditions" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     @push('scripts')
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
         <script>
             $('.owl-carousel').owlCarousel({
                 loop:true,
@@ -1003,6 +1092,80 @@
                     }
                 }
             })
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                // Toolbar extra buttons
+                var btnFinish = $('<button></button>').text('Finish')
+                    .addClass('btn btn-info')
+                    .on('click', function(){
+                        if( !$(this).hasClass('disabled')){
+                            var elmForm = $("#myForm");
+                            if(elmForm){
+                                elmForm.validator('validate');
+                                var elmErr = elmForm.find('.has-error');
+                                if(elmErr && elmErr.length > 0){
+                                    alert('Oops we still have error in the form');
+                                    return false;
+                                }else{
+                                    alert('Great! we are ready to submit form');
+                                    elmForm.submit();
+                                    return false;
+                                }
+                            }
+                        }
+                    });
+                var btnCancel = $('<button></button>').text('Cancel')
+                    .addClass('btn btn-danger')
+                    .on('click', function(){
+                        $('#smartwizard').smartWizard("reset");
+                        $('#myForm').find("input, textarea").val("");
+                    });
+
+
+
+                // Smart Wizard
+                $('#smartwizard').smartWizard({
+                    selected: 0,
+                    theme: 'dots',
+                    transitionEffect:'fade',
+                    toolbarSettings: {toolbarPosition: 'bottom',
+                        toolbarExtraButtons: [btnFinish, btnCancel]
+                    },
+                    anchorSettings: {
+                        markDoneStep: true, // add done css
+                        markAllPreviousStepsAsDone: true, // When a step selected by url hash, all previous steps are marked done
+                        removeDoneStepOnNavigateBack: true, // While navigate back done step after active step will be cleared
+                        enableAnchorOnDoneStep: true // Enable/Disable the done steps navigation
+                    }
+                });
+
+                $("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
+                    var elmForm = $("#form-step-" + stepNumber);
+                    // stepDirection === 'forward' :- this condition allows to do the form validation
+                    // only on forward navigation, that makes easy navigation on backwards still do the validation when going next
+                    if(stepDirection === 'forward' && elmForm){
+                        elmForm.validator('validate');
+                        var elmErr = elmForm.children('.has-error');
+                        if(elmErr && elmErr.length > 0){
+                            // Form validation failed
+                            return false;
+                        }
+                    }
+                    return true;
+                });
+
+                $("#smartwizard").on("showStep", function(e, anchorObject, stepNumber, stepDirection) {
+                    // Enable finish button only on last step
+                    if(stepNumber == 3){
+                        $('.btn-finish').removeClass('disabled');
+                    }else{
+                        $('.btn-finish').addClass('disabled');
+                    }
+                });
+
+            });
         </script>
     @endpush
 @stop
