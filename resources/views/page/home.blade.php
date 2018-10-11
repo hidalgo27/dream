@@ -975,8 +975,6 @@
         </div>
     </section>
 
-
-
     {{--@include('layouts.page.form-quote')--}}
 
     <section>
@@ -999,21 +997,73 @@
                                 <div id="step-1">
                                     <h2>Your Email Address</h2>
                                     <div id="form-step-0" role="form" data-toggle="validator">
-                                        <div class="form-group">
-                                            <label for="email">Email address:</label>
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Write your email address" required>
-                                            <div class="help-block with-errors"></div>
+                                        {{--<div class="form-group">--}}
+                                            {{--<label for="email">Email address:</label>--}}
+                                            {{--<input type="email" class="form-control" name="email" id="email" placeholder="Write your email address" required>--}}
+                                            {{--<div class="help-block with-errors"></div>--}}
+                                        {{--</div>--}}
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <div class="btn-group-toggle" data-toggle="buttons">
+                                                        <label class="btn btn-secondary btn-block p-0 img-check position-relative w-100">
+                                                            <input type="checkbox" id="1234">
+                                                            <img src="{{asset('images/banners/clasico.jpg')}}" alt="" class="w-100 rounded">
+                                                            <span class="check-icon"><i class="fas fa-check fa-3x text-red-dark"></i></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="help-block with-errors text-danger"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <div class="btn-group-toggle" data-toggle="buttons">
+                                                        <label class="btn btn-secondary btn-block p-0 img-check position-relative w-100">
+                                                            <input type="checkbox" id="12345">
+                                                            <img src="{{asset('images/banners/activamente.jpg')}}" alt="" class="w-100 rounded">
+                                                            <span class="check-icon"><i class="fas fa-check fa-3x text-red-dark"></i></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="help-block with-errors text-danger"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <div class="btn-group-toggle" data-toggle="buttons">
+                                                        <label class="btn btn-secondary btn-block p-0 img-check position-relative w-100">
+                                                            <input type="checkbox" id="12346">
+                                                            <img src="{{asset('images/banners/authentish.jpg')}}" alt="" class="w-100 rounded">
+                                                            <span class="check-icon"><i class="fas fa-check fa-3x text-red-dark"></i></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="help-block with-errors text-danger"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-
                                 </div>
                                 <div id="step-2">
                                     <h2>Your Name</h2>
                                     <div id="form-step-1" role="form" data-toggle="validator">
-                                        <div class="form-group">
-                                            <label for="name">Name:</label>
-                                            <input type="text" class="form-control" name="name" id="email" placeholder="Write your name" required>
-                                            <div class="help-block with-errors"></div>
+                                        {{--<div class="form-group">--}}
+                                            {{--<label for="name">Name:</label>--}}
+                                            {{--<input type="text" class="form-control" name="name" id="email" placeholder="Write your name" required>--}}
+                                            {{--<div class="help-block with-errors"></div>--}}
+                                        {{--</div>--}}
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                    <div class="col btn btn-secondary active">
+                                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+                                                    </div>
+                                                    <div class="col btn btn-secondary">
+                                                        <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+                                                    </div>
+                                                    <div class="col btn btn-secondary">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1049,8 +1099,13 @@
                                     </p>
                                     <div id="form-step-4" role="form" data-toggle="validator">
                                         <div class="form-group">
-                                            <label for="terms">I agree with the T&C</label>
-                                            <input type="checkbox" id="terms" data-error="Please accept the Terms and Conditions" required>
+                                            {{--<label for="terms2">I agree with the T&C</label>--}}
+                                            {{--<input type="checkbox" id="terms2" data-error="Please accept the Terms and Conditions" required>--}}
+                                            <div class="btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-secondary active">
+                                                    <input type="checkbox" id="terms2" data-error="Please accept the Terms and Conditions" required> Checked
+                                                </label>
+                                            </div>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -1130,6 +1185,7 @@
                     selected: 0,
                     theme: 'dots',
                     transitionEffect:'fade',
+                    showStepURLhash: false, // Show url hash based on step
                     toolbarSettings: {toolbarPosition: 'bottom',
                         toolbarExtraButtons: [btnFinish, btnCancel]
                     },
@@ -1138,7 +1194,11 @@
                         markAllPreviousStepsAsDone: true, // When a step selected by url hash, all previous steps are marked done
                         removeDoneStepOnNavigateBack: true, // While navigate back done step after active step will be cleared
                         enableAnchorOnDoneStep: true // Enable/Disable the done steps navigation
-                    }
+                    },
+                    lang: { // Language variables for button
+                        next: 'Next',
+                        previous: 'Previous'
+                    },
                 });
 
                 $("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
@@ -1158,13 +1218,19 @@
 
                 $("#smartwizard").on("showStep", function(e, anchorObject, stepNumber, stepDirection) {
                     // Enable finish button only on last step
-                    if(stepNumber == 3){
+                    if(stepNumber == 4){
                         $('.btn-finish').removeClass('disabled');
                     }else{
                         $('.btn-finish').addClass('disabled');
                     }
                 });
 
+            });
+
+            $(document).ready(function(e){
+                $(".img-check").click(function(){
+                    $(this).toggleClass("check");
+                });
             });
         </script>
     @endpush

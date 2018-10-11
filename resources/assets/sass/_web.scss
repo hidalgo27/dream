@@ -653,3 +653,33 @@ input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
 }
 
 
+.check
+{
+  //opacity:0.5;
+  //color:#996;
+  //  background: url("/images/sliders/slider-1.jpg");
+}
+.img-check{
+    border: 0 !important;
+}
+.check.active .check-icon {
+    display: block !important;
+    opacity: 0.9;
+    border: 1px solid;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+}
+.check-icon{
+    position: absolute;
+    bottom: 10%;
+    z-index: 1;
+    //left: 46%;
+    display: none;
+}
+//.check.active .check-icon{
+//    display: block !important;
+//    opacity:0.9;
+//}
