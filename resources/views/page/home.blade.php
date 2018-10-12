@@ -267,7 +267,7 @@
                         </div>
                         <div class="row px-3">
                             <div class="col">
-                                <h4 class="text-left my-3">Austrian Alps</h4>
+                                <h4 class="text-left my-3">Title Packages</h4>
                             </div>
                         </div>
                         <div class="row px-3 pb-3">
@@ -278,8 +278,8 @@
                                 </div>
                             </div>
                             <div class="col-9">
-                                <p class="text-left m-0 font-weight-bold text-secondary">MUSCLE GROUP:</p>
-                                <p class="text-left m-0 small text-red-primary">Toning and shaping, Body Building.</p>
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
                             </div>
                         </div>
 
@@ -294,7 +294,7 @@
                         </div>
                         <div class="row px-3">
                             <div class="col">
-                                <h4 class="text-left my-3">Austrian Alps</h4>
+                                <h4 class="text-left my-3">Title Packages</h4>
                             </div>
                         </div>
                         <div class="row px-3 pb-3">
@@ -305,8 +305,8 @@
                                 </div>
                             </div>
                             <div class="col-9">
-                                <p class="text-left m-0 font-weight-bold text-secondary">MUSCLE GROUP:</p>
-                                <p class="text-left m-0 small text-red-primary">Toning and shaping, Body Building.</p>
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
                             </div>
                         </div>
 
@@ -321,7 +321,7 @@
                         </div>
                         <div class="row px-3">
                             <div class="col">
-                                <h4 class="text-left my-3">Austrian Alps</h4>
+                                <h4 class="text-left my-3">Title Packages</h4>
                             </div>
                         </div>
                         <div class="row px-3 pb-3">
@@ -332,8 +332,8 @@
                                 </div>
                             </div>
                             <div class="col-9">
-                                <p class="text-left m-0 font-weight-bold text-secondary">MUSCLE GROUP:</p>
-                                <p class="text-left m-0 small text-red-primary">Toning and shaping, Body Building.</p>
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
                             </div>
                         </div>
 
@@ -360,7 +360,7 @@
                         </div>
                         <div class="row my-2">
                             <div class="col-9">
-                                <h6 class="text-left">Austrian Alps</h6>
+                                <h6 class="text-left">Title Packages</h6>
                             </div>
                             <div class="col-3">
                                 <h6 class="text-red-primary">$200.00</h6>
@@ -386,7 +386,7 @@
                         </div>
                         <div class="row my-2">
                             <div class="col-9">
-                                <h6 class="text-left">Austrian Alps</h6>
+                                <h6 class="text-left">Title Packages</h6>
                             </div>
                             <div class="col-3">
                                 <h6 class="text-red-primary">$200.00</h6>
@@ -412,7 +412,7 @@
                         </div>
                         <div class="row my-2">
                             <div class="col-9">
-                                <h6 class="text-left">Austrian Alps</h6>
+                                <h6 class="text-left">Title Packages</h6>
                             </div>
                             <div class="col-3">
                                 <h6 class="text-red-primary">$200.00</h6>
@@ -434,7 +434,7 @@
                         <div class="card">
                             <img class="card-img-top" src="{{asset('images/banners/banner-3.jpg')}}" alt="Card image cap">
                             <div class="card-body bg-g-yellow p-2 text-center">
-                                <h5 class="text-white m-0">MachuPicchu - Galapagos</h5>
+                                <h5 class="text-white m-0">MachuPicchu - Koliri</h5>
                                 {{--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>--}}
                                 {{--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>--}}
                             </div>
@@ -458,7 +458,7 @@
                         <div class="card">
                             <img class="card-img-top" src="{{asset('images/banners/banner-3.jpg')}}" alt="Card image cap">
                             <div class="card-body bg-info p-2 text-center">
-                                <h5 class="text-white m-0">Galapagos Cruises</h5>
+                                <h5 class="text-white m-0">Koliri Cruises</h5>
                                 {{--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>--}}
                                 {{--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>--}}
                             </div>
@@ -473,7 +473,7 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h2 class="font-weight-bold text-secondary">Welcome to The World’s #1 Galapagos Travel Site</h2>
+                    <h2 class="font-weight-bold text-secondary">Welcome to The World’s #1 KOLIBRI Site</h2>
                     <div class="sec-title-div-3"></div>
                     <p class="font-weight-normal lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugit mollitia neque officia quam quis reiciendis tenetur vero voluptatibus voluptatum. Architecto dolor eligendi eum inventore ipsum odio porro ut voluptatibus!</p>
                 </div>
@@ -675,18 +675,18 @@
                     <div class="row divider-mid-h-40 align-items-center">
                         <div class="col-5">
                             <div class="bg-rgba-white-8 rounded p-4">
-                                <h2 class="font-weight-bold font-philosopher text-center">Why Choose Galapagos Islands.com?</h2>
+                                <h2 class="font-weight-bold font-philosopher text-center">Why Choose Koliri Islands.com?</h2>
                                 <ul class="list-unstyled h5">
-                                    <li><i class="fas fa-check-square text-g-orange"></i> Specialist Galapagos Trip Advisors</li>
-                                    <li><i class="fas fa-check-square text-g-orange"></i> #1 online seller of Galapagos tours</li>
+                                    <li><i class="fas fa-check-square text-g-orange"></i> Specialist Koliri Trip Advisors</li>
+                                    <li><i class="fas fa-check-square text-g-orange"></i> #1 online seller of Koliri tours</li>
                                     <li><i class="fas fa-check-square text-g-orange"></i> Lowest Price Guaranteed</li>
-                                    <li><i class="fas fa-check-square text-g-orange"></i> Free Galapagos Trip Planning</li>
+                                    <li><i class="fas fa-check-square text-g-orange"></i> Free Koliri Trip Planning</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col">
                             <div class="bg-rgba-white-8 rounded p-4 w-100">
-                                <h2 class="font-weight-bold font-philosopher pb-3 text-center">Galapagos Travel Tips</h2>
+                                <h2 class="font-weight-bold font-philosopher pb-3 text-center">Koliri Travel Tips</h2>
                                 <div class="row">
                                     <div class="col text-center">
                                         <i class="fas fa-plane fa-3x"></i>
@@ -726,7 +726,7 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h2 class="font-weight-bold text-secondary">Welcome to The World’s #1 Galapagos Travel Site</h2>
+                    <h2 class="font-weight-bold text-secondary">Welcome to The World’s #1 Koliri Travel Site</h2>
                     <p class="font-weight-normal lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugit mollitia neque officia quam quis reiciendis tenetur vero voluptatibus voluptatum. Architecto dolor eligendi eum inventore ipsum odio porro ut voluptatibus!</p>
                 </div>
             </div>
@@ -741,7 +741,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col">
-                            {{--<div class="rounded-top p-2 bg-g-yellow h3 m-0 font-kalam text-center">MachuPicchu - Galapagos</div>--}}
+                            {{--<div class="rounded-top p-2 bg-g-yellow h3 m-0 font-kalam text-center">MachuPicchu - Koliri</div>--}}
                             <img src="{{asset('images/packages/gt1.jpg')}}" alt="" class="w-100">
                         </div>
                     </div>
@@ -770,7 +770,7 @@
                                                             <a href="#" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
+                                                                        <small class="font-weight-bold">Koliri Discover</small>
                                                                     </div>
                                                                     <div class="col text-center">
                                                                         <small class="font-weight-bold">6 Days <span class="text-g-yellow">/</span> 5 Nights</small>
@@ -783,7 +783,7 @@
                                                             <a href="#" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
+                                                                        <small class="font-weight-bold">Koliri Discover</small>
                                                                     </div>
                                                                     <div class="col text-center">
                                                                         <small class="font-weight-bold">6 Days <span class="text-g-yellow">/</span> 5 Nights</small>
@@ -796,7 +796,7 @@
                                                             <a href="#" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
+                                                                        <small class="font-weight-bold">Koliri Discover</small>
                                                                     </div>
                                                                     <div class="col text-center">
                                                                         <small class="font-weight-bold">6 Days <span class="text-g-yellow">/</span> 5 Nights</small>
@@ -809,7 +809,7 @@
                                                             <a href="#" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
+                                                                        <small class="font-weight-bold">Koliri Discover</small>
                                                                     </div>
                                                                     <div class="col text-center">
                                                                         <small class="font-weight-bold">6 Days <span class="text-g-yellow">/</span> 5 Nights</small>
@@ -822,7 +822,7 @@
                                                             <a href="#" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
+                                                                        <small class="font-weight-bold">Koliri Discover</small>
                                                                     </div>
                                                                     <div class="col text-center">
                                                                         <small class="font-weight-bold">6 Days <span class="text-g-yellow">/</span> 5 Nights</small>
@@ -835,7 +835,7 @@
                                                             <a href="#" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
-                                                                        <small class="font-weight-bold">Galapagos Discover</small>
+                                                                        <small class="font-weight-bold">Koliri Discover</small>
                                                                     </div>
                                                                     <div class="col text-center">
                                                                         <small class="font-weight-bold">6 Days <span class="text-g-yellow">/</span> 5 Nights</small>
@@ -857,7 +857,7 @@
                                     </div>
                                     {{--<div class="row mt-2">--}}
                                         {{--<div class="col text-right">--}}
-                                            {{--<a href="" class="btn-link font-weight-normal text-secondary">Vew All MachuPicchu - Galapagos Packages <i class="fa fa-chevron-right"></i></a>--}}
+                                            {{--<a href="" class="btn-link font-weight-normal text-secondary">Vew All MachuPicchu - Koliri Packages <i class="fa fa-chevron-right"></i></a>--}}
                                         {{--</div>--}}
                                     {{--</div>--}}
                                 </div>
@@ -977,7 +977,7 @@
 
     {{--@include('layouts.page.form-quote')--}}
 
-    <section>
+    <section class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -995,7 +995,8 @@
 
                             <div>
                                 <div id="step-1">
-                                    <h2>Your Email Address</h2>
+                                    <h3 class="text-secondary font-weight-bold">Wählen Sie ihre Wunschziele aus Unverbindlich</h3>
+                                    <p class="font-weight-bold text-secondary pb-3">Erzählen Sie uns über Ihre Reisepläne und sobald wie möglich schicken wir Ihnen ein passendes Entwurf des Programmes. *</p>
                                     <div id="form-step-0" role="form" data-toggle="validator">
                                         {{--<div class="form-group">--}}
                                             {{--<label for="email">Email address:</label>--}}
@@ -1043,7 +1044,7 @@
                                     </div>
                                 </div>
                                 <div id="step-2">
-                                    <h2>Your Name</h2>
+                                    <p class="font-weight-bold text-secondary pb-3">Konkretisieren sie Ihre Reisedaten und wählen Sie den gewünschten Service aus* Zu wie vielen Personen reisen Sie?</p>
                                     <div id="form-step-1" role="form" data-toggle="validator">
                                         {{--<div class="form-group">--}}
                                             {{--<label for="name">Name:</label>--}}
@@ -1052,15 +1053,19 @@
                                         {{--</div>--}}
                                         <div class="row">
                                             <div class="col">
-                                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                                    <div class="col btn btn-secondary active">
-                                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+                                                <div class="row btn-group-toggle" data-toggle="buttons">
+                                                    <div class="col btn btn-secondary p-0">
+                                                        <input type="radio" name="options" id="option1" autocomplete="off">
+                                                        <img src="{{asset('images/form/personal.png')}}" alt="" class="w-100">
                                                     </div>
-                                                    <div class="col btn btn-secondary">
+                                                    <div class="col btn btn-secondary p-0">
                                                         <input type="radio" name="options" id="option2" autocomplete="off"> Radio
                                                     </div>
-                                                    <div class="col btn btn-secondary">
+                                                    <div class="col btn btn-secondary p-0">
                                                         <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+                                                    </div>
+                                                    <div class="col btn btn-secondary p-0">
+                                                        <input type="radio" name="options" id="option4" autocomplete="off"> Radio
                                                     </div>
                                                 </div>
                                             </div>
@@ -1068,7 +1073,7 @@
                                     </div>
                                 </div>
                                 <div id="step-3">
-                                    <h2>Your Address</h2>
+                                    <p class="font-weight-bold text-secondary pb-3">In welcher Hotelkategorie wollen Sie übernachten?*</p>
                                     <div id="form-step-2" role="form" data-toggle="validator">
                                         <div class="form-group">
                                             <label for="address">Address</label>
@@ -1078,10 +1083,7 @@
                                     </div>
                                 </div>
                                 <div id="step-4" class="">
-                                    <h2>Terms and Conditions</h2>
-                                    <p>
-                                        Terms and conditions: Keep your smile :)
-                                    </p>
+
                                     <div id="form-step-3" role="form" data-toggle="validator">
                                         <div class="form-group">
                                             <label for="terms">I agree with the T&C</label>
@@ -1093,10 +1095,7 @@
 
                                 </div>
                                 <div id="step-5" class="">
-                                    <h2>Terms and Conditions</h2>
-                                    <p>
-                                        Terms and conditions: Keep your smile :)
-                                    </p>
+
                                     <div id="form-step-4" role="form" data-toggle="validator">
                                         <div class="form-group">
                                             {{--<label for="terms2">I agree with the T&C</label>--}}

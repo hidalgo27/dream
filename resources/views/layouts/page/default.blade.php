@@ -25,63 +25,65 @@
 @yield('content')
 
 
-<section class="py-5 bg-light d-none d-sm-block">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="{{asset("images/sponsor/logo-facebook.png")}}" alt="" class="img-fluid">
-            </div>
-            <div class="col">
-                <img src="{{asset("images/sponsor/logo-asta.png")}}" alt="" class="img-fluid">
-            </div>
-            <div class="col">
-                <img src="{{asset("images/sponsor/logo-newyorktimes.png")}}" alt="" class="img-fluid">
-            </div>
-            <div class="col">
-                <img src="{{asset("images/sponsor/logo-apotur.png")}}" alt="" class="img-fluid">
-            </div>
-            <div class="col">
-                <img src="{{asset("images/sponsor/logo-promperu.png")}}" alt="" class="img-fluid">
-            </div>
-            <div class="col">
-                <img src="{{asset("images/sponsor/logo-meetup.png")}}" alt="" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
+{{--<section class="py-5 bg-light d-none d-sm-block">--}}
+    {{--<div class="container">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col">--}}
+                {{--<img src="{{asset("images/sponsor/logo-facebook.png")}}" alt="" class="img-fluid">--}}
+            {{--</div>--}}
+            {{--<div class="col">--}}
+                {{--<img src="{{asset("images/sponsor/logo-asta.png")}}" alt="" class="img-fluid">--}}
+            {{--</div>--}}
+            {{--<div class="col">--}}
+                {{--<img src="{{asset("images/sponsor/logo-newyorktimes.png")}}" alt="" class="img-fluid">--}}
+            {{--</div>--}}
+            {{--<div class="col">--}}
+                {{--<img src="{{asset("images/sponsor/logo-apotur.png")}}" alt="" class="img-fluid">--}}
+            {{--</div>--}}
+            {{--<div class="col">--}}
+                {{--<img src="{{asset("images/sponsor/logo-promperu.png")}}" alt="" class="img-fluid">--}}
+            {{--</div>--}}
+            {{--<div class="col">--}}
+                {{--<img src="{{asset("images/sponsor/logo-meetup.png")}}" alt="" class="img-fluid">--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
 
 
-<footer class="bg-g-dark">
-    <img src="{{asset('images/footer.jpg')}}" alt="footer gotoperu" class="w-100">
+<footer class="bg-dark">
+{{--    <img src="{{asset('images/footer.jpg')}}" alt="footer gotoperu" class="w-100">--}}
     <div class="container footer-logo">
         <div class="row justify-content-center">
             <div class="col-6">
                 <div class="row">
                     <div class="col">
-                        <img src="{{asset('images/logo-galapagos.png')}}" alt="logo gotoperu" class="w-100">
+                        <img src="{{asset('images/logo-dream.png')}}" alt="logo" class="w-100">
                     </div>
                 </div>
 
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-12 col-sm-8">
-                <div class="alert bg-rgba-dark my-4 text-white text-center" role="alert">
-                    O ÚNICO <strong class="text-g-yellow">Operador de Viagem Peruano</strong>
+        {{--<div class="row justify-content-center">--}}
+            {{--<div class="col-12 col-sm-8">--}}
+                {{--<div class="alert bg-rgba-dark my-4 text-white text-center" role="alert">--}}
+                    {{--O ÚNICO <strong class="text-g-yellow">Operador de Viagem Peruano</strong>--}}
 
-                </div>
-            </div>
-        </div>
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
     </div>
     <div class="container">
         <div class="row py-4">
             <div class="col-6 col-sm mb-3 text-white">
-                <h3 class="h6 text-g-yellow">Pacotes</h3>
+                <h3 class="h6 text-g-yellow">RUNDREISE</h3>
                 <ul class="m-0 text-g-yellow list-unstyled">
                     {{--<li><a href="{{route('deals_path')}}" class="text-white">Travel Deals</a></li>--}}
-                    <li><a href="" class="text-white">Pacotes de Viagem</a></li>
-                    <li><a href="" class="text-white">Perú Passeios</a></li>
+                    <li><a href="" class="text-white">Geheimnisvolles Peru</a></li>
+                    <li><a href="" class="text-white">Peru Kompakt</a></li>
+                    <li><a href="" class="text-white">Traumhaftes Peru</a></li>
+                    <li><a href="" class="text-white">Peru Klassisch</a></li>
                 </ul>
             </div>
             {{--<div class="col-6 col-sm mb-3 text-white">--}}
@@ -92,9 +94,11 @@
             {{--</ul>--}}
             {{--</div>--}}
             <div class="col-6 col-sm mb-3 text-white">
-                <h3 class="h6 text-g-yellow">Destinations</h3>
+                <h3 class="h6 text-g-yellow">ÜBER UNS</h3>
                 <ul class="m-0 text-g-yellow list-unstyled">
-                    <li><a href="" class="text-white">Perú destinos</a></li>
+                    <li><a href="" class="text-white">Über Kolibri Peru Travel</a></li>
+                    <li><a href="" class="text-white">FEEDBACK</a></li>
+                    <li><a href="" class="text-white">Kontakt</a></li>
                 </ul>
             </div>
             {{--<div class="col-6 col-sm mb-3 text-white">--}}
@@ -106,13 +110,13 @@
             {{--<li><a href="" class="text-white">5 Stars</a></li>--}}
             {{--</ul>--}}
             {{--</div>--}}
-            <div class="col-6 col-sm mb-3 text-white">
-                <h3 class="h6 text-g-yellow">Sobre Nós</h3>
-                <ul class="m-0 text-g-yellow list-unstyled">
-                    <li><a href="" class="text-white">Sobre Nós</a></li>
-                    <li><a href="" class="text-white">Responsibilidade Social</a></li>
-                </ul>
-            </div>
+            {{--<div class="col-6 col-sm mb-3 text-white">--}}
+                {{--<h3 class="h6 text-g-yellow">Sobre Nós</h3>--}}
+                {{--<ul class="m-0 text-g-yellow list-unstyled">--}}
+                    {{--<li><a href="" class="text-white">Sobre Nós</a></li>--}}
+                    {{--<li><a href="" class="text-white">Responsibilidade Social</a></li>--}}
+                {{--</ul>--}}
+            {{--</div>--}}
             {{--<div class="col-6 col-sm mb-3 text-white">--}}
             {{--<h3 class="h6 text-g-yellow">Offices</h3>--}}
             {{--<ul class="m-0 text-g-yellow list-unstyled">--}}
@@ -120,13 +124,13 @@
             {{--<li>USA: 1440 G St NW, Washington DC, 20005</li>--}}
             {{--</ul>--}}
             {{--</div>--}}
-            <div class="col-6 col-sm mb-3 text-white">
-                <h3 class="h6 text-g-yellow">FAQ</h3>
-                <ul class="m-0 text-g-yellow list-unstyled">
+            {{--<div class="col-6 col-sm mb-3 text-white">--}}
+                {{--<h3 class="h6 text-g-yellow">FAQ</h3>--}}
+                {{--<ul class="m-0 text-g-yellow list-unstyled">--}}
                     {{--<li><a href="" class="text-white">Getting To Peru</a></li>--}}
-                    <li><a href="" class="text-white">Perguntas Mais Frequentes</a></li>
-                </ul>
-            </div>
+                    {{--<li><a href="" class="text-white">Perguntas Mais Frequentes</a></li>--}}
+                {{--</ul>--}}
+            {{--</div>--}}
             {{--<div class="col-6 col-sm mb-3 text-white">--}}
             {{--<h3 class="h6 text-g-yellow">Testimonials</h3>--}}
             {{--<ul class="m-0 text-g-yellow list-unstyled">--}}
@@ -134,20 +138,20 @@
             {{--<li><a href="" class="text-white">Reviews & Testmonials</a></li>--}}
             {{--</ul>--}}
             {{--</div>--}}
-            <div class="col-6 col-sm mb-3 text-white">
-                <h3 class="h6 text-g-yellow">Contato</h3>
-                <ul class="m-0 text-g-yellow list-unstyled">
+            {{--<div class="col-6 col-sm mb-3 text-white">--}}
+                {{--<h3 class="h6 text-g-yellow">Contato</h3>--}}
+                {{--<ul class="m-0 text-g-yellow list-unstyled">--}}
                     {{--<li><a href="" class="text-white" data-toggle="modal" data-target="#modal-contact">Email</a></li>--}}
-                    <li><a href="tel:+2029963000">(202) 996-3000</a></li>
+                    {{--<li><a href="tel:+2029963000">(202) 996-3000</a></li>--}}
                     {{--<li><a href="" class="text-white">Address</a></li>--}}
-                </ul>
-            </div>
-            <div class="col-6 col-sm mb-3 text-white">
-                <h3 class="h6 text-g-yellow">Hotéis</h3>
-                <ul class="m-0 text-g-yellow list-unstyled">
-                    <li><a href="" class="text-white">Hotéis</a></li>
-                </ul>
-            </div>
+                {{--</ul>--}}
+            {{--</div>--}}
+            {{--<div class="col-6 col-sm mb-3 text-white">--}}
+                {{--<h3 class="h6 text-g-yellow">Hotéis</h3>--}}
+                {{--<ul class="m-0 text-g-yellow list-unstyled">--}}
+                    {{--<li><a href="" class="text-white">Hotéis</a></li>--}}
+                {{--</ul>--}}
+            {{--</div>--}}
         </div>
         {{--<div class="row bg-light pt-3">--}}
         {{--<div class="col-12 col-sm mb-3">--}}
@@ -172,7 +176,7 @@
         {{--</div>--}}
         <div class="row">
             <div class="col text-center text-white">
-                <small><i><b>PERU:</b> Av. Collasuyo 986 Cusco-Peru | <b>USA:</b> 1440 G St NW, Washington DC, 20005</i></small>
+                <small>PandaNinja</small>
             </div>
         </div>
     </div>
