@@ -19,3 +19,11 @@ Route::get('/', [
     'uses' => 'HomeController@index',
     'as' => 'home_path',
 ]);
+Route::get('/peru-reiseziele', [
+    'uses' => 'HomeController@destinations',
+    'as' => 'destinations_path',
+]);
+Route::get('/rundreise', [
+    'uses' => 'HomeController@tours',
+    'as' => 'tours_path',
+]);

@@ -16,6 +16,14 @@ class HomeController extends Controller
         //
         return view('page.home');
     }
+    public function destinations()
+    {
+        return view('page.destinations');
+    }
+    public function tours()
+    {
+        return view('page.tours');
+    }
 
     /**
      * Show the form for creating a new resource.

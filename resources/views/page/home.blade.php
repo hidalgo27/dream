@@ -1,107 +1,9 @@
 @extends('layouts.page.default')
 
 @section('content')
-    <header>
-        <div class="bg-rgba-white-7 py-3">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-4 align-items-center">
-                        <img src="{{asset('images/logo-dream.png')}}" alt="" class="w-100">
-                    </div>
-                    <div class="col">
-                        {{--<p class="m-0 font-kalam h5 text-info">Perú & Ecuador Especialist!</p>--}}
-                    </div>
-                    <div class="col-auto text-right">
-                        <p class="m-0 text-secondary">
-                            {{--<a href="" class="h5"><i class="fab fa-facebook-square"></i></a>--}}
-                            {{--<a href="" class="h5"><i class="fab fa-twitter"></i></a>--}}
-                            {{--<a href="" class="h5"><i class="fab fa-youtube"></i></a> |--}}
-                            <a href="" class="btn btn-red-primary font-weight-bold btn-lg">Pregunte Ahora</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav class="topbar-nav">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <ul class="metismenu" id="menu1">
-                            <li>
-                                <a class="has-arrow" href="#">
-                                    {{--<span class="fa fa-fw fa-github fa-lg"></span>--}}
-                                    Reisevarianten
-                                </a>
-                                <ul aria-expanded="true">
-                                    <li>
-                                        <a href="#">
-                                            {{--<span class="fa fa-fw fa-code-fork"></span> --}}
-                                            Rundreise
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            {{--<span class="fa fa-fw fa-star"></span> --}}
-                                            Reisebausteine
-                                        </a>
-                                    </li>
-                                    {{--<li>--}}
-                                        {{--<a href="https://github.com/onokumus/metisMenu/issues">--}}
-                                            {{--<span class="fa fa-fw fa-exclamation-triangle"></span> Issues--}}
-                                        {{--</a>--}}
-                                    {{--</li>--}}
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="has-arrow" href="#" aria-expanded="false">Planen Sie Ihre Reise</a>
-                                {{--<ul aria-expanded="false">--}}
-                                    {{--<li><a href="#">item 0.1</a></li>--}}
-                                    {{--<li><a href="#">item 0.2</a></li>--}}
-                                    {{--<li><a href="http://onokumus.com">onokumus</a></li>--}}
-                                    {{--<li><a href="#">item 0.4</a></li>--}}
-                                {{--</ul>--}}
-                            </li>
-                            <li id="removable">
-                                <a class="has-arrow" href="#" aria-expanded="false">Über Uns</a>
-                                <ul aria-expanded="false">
-                                    <li><a href="#">Über Kolibri Peru Travel</a></li>
-                                    <li><a href="#">Feedback</a></li>
-                                    {{--<li>--}}
-                                        {{--<a class="has-arrow" href="#" aria-expanded="false">Menu 1.3</a>--}}
-                                        {{--<ul aria-expanded="false">--}}
-                                            {{--<li><a href="#">item 1.3.1</a></li>--}}
-                                            {{--<li><a href="#">item 1.3.2</a></li>--}}
-                                            {{--<li><a href="#">item 1.3.3</a></li>--}}
-                                            {{--<li><a href="#">item 1.3.4</a></li>--}}
-                                        {{--</ul>--}}
-                                    {{--</li>--}}
-                                    {{--<li><a href="#">item 1.4</a></li>--}}
-                                    {{--<li>--}}
-                                        {{--<a class="has-arrow" href="#" aria-expanded="false">Menu 1.5</a>--}}
-                                        {{--<ul aria-expanded="false">--}}
-                                            {{--<li><a href="#">item 1.5.1</a></li>--}}
-                                            {{--<li><a href="#">item 1.5.2</a></li>--}}
-                                            {{--<li><a href="#">item 1.5.3</a></li>--}}
-                                            {{--<li><a href="#">item 1.5.4</a></li>--}}
-                                        {{--</ul>--}}
-                                    {{--</li>--}}
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="has-arrow" href="#" aria-expanded="false">Über Peru</a>
-                                <ul aria-expanded="false">
-                                    <li><a href="#">Hohenanpassung</a></li>
-                                    <li><a href="#">Information</a></li>
-                                    {{--<li><a href="#">item 2.3</a></li>--}}
-                                    {{--<li><a href="#">item 2.4</a></li>--}}
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+
+    @include('layouts.page.menu')
+
     <section class="position-relative">
         <div class="form-header">
             <div class="container">
@@ -492,7 +394,7 @@
     </section>
 
     <section class="bg-white pb-5">
-        <div class="container">
+        <div class="container pb-5">
             <!------------------ Hover Effect Style : Demo - 16 --------------->
             <div class="container">
                 <div class="row">
@@ -667,7 +569,7 @@
         </div>
     </section>
 
-    <section class="d-block bg-rgba-">
+    <section class="d-block bg-l py-5">
         <div id="overlay" class="overlay-img position-relative overlay">
             <img src="{{asset('images/sliders/slider-2.jpg')}}" alt="" id="hero-vid" class="w-100 hero-vid">
             <div class="divider-mid">
@@ -977,148 +879,7 @@
 
     {{--@include('layouts.page.form-quote')--}}
 
-    <section class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <form action="#" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
-
-                        <!-- SmartWizard html -->
-                        <div id="smartwizard">
-                            <ul>
-                                <li><a href="#step-1">Orte<br /><small>step 1</small></a></li>
-                                <li><a href="#step-2">Zu wie vielen<br /><small>step 2</small></a></li>
-                                <li><a href="#step-3">Unterkunft<br /><small>step 3</small></a></li>
-                                <li><a href="#step-4">Transport<br /><small>step 4</small></a></li>
-                                <li><a href="#step-5">Daten<br /><small>step 5</small></a></li>
-                            </ul>
-
-                            <div>
-                                <div id="step-1">
-                                    <h3 class="text-secondary font-weight-bold">Wählen Sie ihre Wunschziele aus Unverbindlich</h3>
-                                    <p class="font-weight-bold text-secondary pb-3">Erzählen Sie uns über Ihre Reisepläne und sobald wie möglich schicken wir Ihnen ein passendes Entwurf des Programmes. *</p>
-                                    <div id="form-step-0" role="form" data-toggle="validator">
-                                        {{--<div class="form-group">--}}
-                                            {{--<label for="email">Email address:</label>--}}
-                                            {{--<input type="email" class="form-control" name="email" id="email" placeholder="Write your email address" required>--}}
-                                            {{--<div class="help-block with-errors"></div>--}}
-                                        {{--</div>--}}
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="form-group">
-                                                    <div class="btn-group-toggle" data-toggle="buttons">
-                                                        <label class="btn btn-secondary btn-block p-0 img-check position-relative w-100">
-                                                            <input type="checkbox" id="1234">
-                                                            <img src="{{asset('images/banners/clasico.jpg')}}" alt="" class="w-100 rounded">
-                                                            <span class="check-icon"><i class="fas fa-check fa-3x text-red-dark"></i></span>
-                                                        </label>
-                                                    </div>
-                                                    <div class="help-block with-errors text-danger"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group">
-                                                    <div class="btn-group-toggle" data-toggle="buttons">
-                                                        <label class="btn btn-secondary btn-block p-0 img-check position-relative w-100">
-                                                            <input type="checkbox" id="12345">
-                                                            <img src="{{asset('images/banners/activamente.jpg')}}" alt="" class="w-100 rounded">
-                                                            <span class="check-icon"><i class="fas fa-check fa-3x text-red-dark"></i></span>
-                                                        </label>
-                                                    </div>
-                                                    <div class="help-block with-errors text-danger"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group">
-                                                    <div class="btn-group-toggle" data-toggle="buttons">
-                                                        <label class="btn btn-secondary btn-block p-0 img-check position-relative w-100">
-                                                            <input type="checkbox" id="12346">
-                                                            <img src="{{asset('images/banners/authentish.jpg')}}" alt="" class="w-100 rounded">
-                                                            <span class="check-icon"><i class="fas fa-check fa-3x text-red-dark"></i></span>
-                                                        </label>
-                                                    </div>
-                                                    <div class="help-block with-errors text-danger"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="step-2">
-                                    <p class="font-weight-bold text-secondary pb-3">Konkretisieren sie Ihre Reisedaten und wählen Sie den gewünschten Service aus* Zu wie vielen Personen reisen Sie?</p>
-                                    <div id="form-step-1" role="form" data-toggle="validator">
-                                        {{--<div class="form-group">--}}
-                                            {{--<label for="name">Name:</label>--}}
-                                            {{--<input type="text" class="form-control" name="name" id="email" placeholder="Write your name" required>--}}
-                                            {{--<div class="help-block with-errors"></div>--}}
-                                        {{--</div>--}}
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row btn-group-toggle" data-toggle="buttons">
-                                                    <div class="col btn btn-secondary p-0">
-                                                        <input type="radio" name="options" id="option1" autocomplete="off">
-                                                        <img src="{{asset('images/form/personal.png')}}" alt="" class="w-100">
-                                                    </div>
-                                                    <div class="col btn btn-secondary p-0">
-                                                        <input type="radio" name="options" id="option2" autocomplete="off"> Radio
-                                                    </div>
-                                                    <div class="col btn btn-secondary p-0">
-                                                        <input type="radio" name="options" id="option3" autocomplete="off"> Radio
-                                                    </div>
-                                                    <div class="col btn btn-secondary p-0">
-                                                        <input type="radio" name="options" id="option4" autocomplete="off"> Radio
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="step-3">
-                                    <p class="font-weight-bold text-secondary pb-3">In welcher Hotelkategorie wollen Sie übernachten?*</p>
-                                    <div id="form-step-2" role="form" data-toggle="validator">
-                                        <div class="form-group">
-                                            <label for="address">Address</label>
-                                            <textarea class="form-control" name="address" id="address" rows="3" placeholder="Write your address..." required></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="step-4" class="">
-
-                                    <div id="form-step-3" role="form" data-toggle="validator">
-                                        <div class="form-group">
-                                            <label for="terms">I agree with the T&C</label>
-                                            <input type="checkbox" id="terms" data-error="Please accept the Terms and Conditions" required>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div id="step-5" class="">
-
-                                    <div id="form-step-4" role="form" data-toggle="validator">
-                                        <div class="form-group">
-                                            {{--<label for="terms2">I agree with the T&C</label>--}}
-                                            {{--<input type="checkbox" id="terms2" data-error="Please accept the Terms and Conditions" required>--}}
-                                            <div class="btn-group-toggle" data-toggle="buttons">
-                                                <label class="btn btn-secondary active">
-                                                    <input type="checkbox" id="terms2" data-error="Please accept the Terms and Conditions" required> Checked
-                                                </label>
-                                            </div>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('layouts.page.design')
 
     @push('scripts')
         <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
