@@ -70,7 +70,7 @@
                         <li id="removable">
                             <a class="has-arrow" href="#" aria-expanded="false">Über Uns</a>
                             <ul aria-expanded="false">
-                                <li><a href="#">Über Kolibri Peru Travel</a></li>
+                                <li><a href="{{route('uns_path')}}">Über Kolibri Peru Travel</a></li>
                                 <li><a href="#">Feedback</a></li>
                                 {{--<li>--}}
                                 {{--<a class="has-arrow" href="#" aria-expanded="false">Menu 1.3</a>--}}

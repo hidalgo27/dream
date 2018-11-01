@@ -164,7 +164,7 @@
                     <div class="gallary-1">
                         <div class="row">
                             <div class="col">
-                                <img src="{{asset('images/banners/home/cusco.jpg')}}" alt="content area" class="w-100">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/cusco.jpg')}}" alt="content area" class="w-100"></a>
                             </div>
                         </div>
                         <div class="row px-3">
@@ -191,7 +191,7 @@
                     <div class="gallary-1">
                         <div class="row">
                             <div class="col">
-                                <img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100"></a>
                             </div>
                         </div>
                         <div class="row px-3">
@@ -218,7 +218,7 @@
                     <div class="gallary-1">
                         <div class="row">
                             <div class="col">
-                                <img src="{{asset('images/banners/home/titicaca.jpg')}}" alt="content area" class="w-100">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/titicaca.jpg')}}" alt="content area" class="w-100"></a>
                             </div>
                         </div>
                         <div class="row px-3">

@@ -27,3 +27,11 @@ Route::get('/rundreise', [
     'uses' => 'HomeController@tours',
     'as' => 'tours_path',
 ]);
+Route::get('/uber-uns', [
+    'uses' => 'HomeController@uns',
+    'as' => 'uns_path',
+]);
+Route::get('/package/{title}', [
+    'uses' => 'HomeController@itinerary',
+    'as' => 'itinerary_path',
+]);

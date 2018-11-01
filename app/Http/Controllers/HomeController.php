@@ -24,6 +24,15 @@ class HomeController extends Controller
     {
         return view('page.tours');
     }
+    public function uns()
+    {
+        return view('page.about');
+    }
+    public function itinerary($title)
+    {
+
+        return view('page.itinerary');
+    }
 
     /**
      * Show the form for creating a new resource.
