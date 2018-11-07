@@ -59,9 +59,9 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="text-red-primary display-4 text-red font-weight-bold">KOLIBRI PERU TRAVEL</h1>
-                    <p class="h4 text-info">Wir –  Kolibri Peru Travel – sind eine kleiner, aber feiner Reiseveranstalter für authentische und nachhaltige Reiseerlebnisse in Peru.</p>
-                    <p>Seit 10 Jahren organisieren wir kleinere Reisen für Freunde und Bekannte, wobei wir maßgeschneiderte Programme angeboten haben. Ausgehend von den dabei gesammelten positiven Erfahrungen starten wir nun damit, Rundreiseprogramme für Gruppen anzubieten.</p>
+                    <h1 class="text-red-primary display-4 text-red font-weight-bold">PERUVIAN DREAMTIME</h1>
+                    <p class="h4 text-info">Wir –Peruvian  Dreamtime –sind  einekleiner,  aber  feiner  Reiseveranstalter  für authentische und nachhaltige Reiseerlebnisse in Peru.</p>
+                    <p>Seit  10  Jahren  organisieren  wir  kleinere  Reisen  für  Freunde  und  Bekannte,  wobei wir  maßgeschneiderteProgramme  angeboten  haben.  Ausgehend  von  den  dabei gesammelten positiven Erfahrungen starten wir nun damit, Rundreiseprogramme für Gruppen anzubieten.</p>
                     <p>Wir legen großen Wert darauf, die Menschen zum Reisen zu motivieren, und lassen sie dabei an den schönsten Seiten Perus teilhaben, die mit einzigartigen und unvergesslichen Erfahrungen verknüpft sind.</p>
                 </div>
             </div>
@@ -72,8 +72,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h5 class="text-red-dark">UNSERE UNTERNEHMENSPHILOSOPHIE:</h5>
-                    <p>Peru zählt nicht nur zu den ältesten Kulturzentren, es ist auch eines der energetischsten Zentren unserer Erde und voller alter spiritueller Weisheiten. Unsere Vorfahren lebten im ständigen Einklang und Ausgleich mit der Natur. Wir bieten auf jeder Reise mit Ihnen vielfältige Entspannungsübungen an, wo alle Sinne mitspielen, dabei  setzen wir uns an bestimmten energetischen Orten mit den Naturelementen in Kontakt</p>
+                    <h4 class="text-red-dark font-weight-bold">UNSERE UNTERNEHMENSPHILOSOPHIE:</h4>
+                    {{--<p>Peru zählt nicht nur zu den ältesten Kulturzentren, es ist auch eines der energetischsten Zentren unserer Erde und voller alter spiritueller Weisheiten. Unsere Vorfahren lebten im ständigen Einklang und Ausgleich mit der Natur. Wir bieten auf jeder Reise mit Ihnen vielfältige Entspannungsübungen an, wo alle Sinne mitspielen, dabei  setzen wir uns an bestimmten energetischen Orten mit den Naturelementen in Kontakt</p>--}}
 
                     <h5 class="text-red-dark">UNSER MOTTO : Mein Herz geht auf Reisen</h5>
                     <p>Deshalb ist es jetzt Zeit, den Alltag hinter sich zu lassen und an die Orte zu reisen, die nicht nur alle Ihre Sinne erfreuen, sondern auch Ihre Seele berühren</p>
@@ -81,16 +81,11 @@
                     <p><b>Unser Anspruch:</b> Den Besuch der klassischen Ziele Perus reichhaltiger zu gestalten und zu verbessern, mit Reisen, die zu eigenen Aktivitäten einladen, mit abenteuerlichen Routen und authentischen Erlebnissen.</p>
                     <p><b>Unser Ziel:</b> Anders zu sein als andere Touranbieter, attraktivere und innovative Produkte auf dem Tourismussektor anzubieten.</p>
 
-                    <h5 class="text-red-dark">KOLIBRI</h5>
-                    <p>Wir haben uns den Namen KOLIBRI gegeben, weil dieser winzige Vogel einer der faszinierendsten in der freien Natur ist und gleichzeitig Spiritualität und Glück symbolisiert. Wir identifizieren uns mit diesem Vogel, denn für uns ist die Natur genauso wichtig wie die Spiritualität, und beide stehen zueinander in einer direkten Beziehung.</p>
-
                     <h5 class="text-red-dark">WARUM SIE IHR PERU-ERLEBNIS MIT UNS DURCHFÜHREN SOLLTEN:</h5>
                     <ul>
                         <li>Beratung durch Experten vor Ort.</li>
-                        <li>Entspannungsübungen in der Natur.</li>
-                        <li>Alle Rundreisen beinhalten  für diejenigen, die daran Gefallen finden, kurze Wanderungen oder Fußmärsche (nicht obligatorisch).</li>
+                        <li>Alle Rundreisen beinhaltenfür diejenigen, die daran Gefallen finden, kurze Wanderungen oder Fußmärsche (nicht obligatorisch).</li>
                         <li>Wir bieten einen unüblichen Routenverlauf mit unvergleichlichen Landschaften , die touristisch bisher weitgehend unbekannt sind.</li>
-                        <li>Günstige  faire Preise.</li>
                         <li>Falls Sie Fragen oder Wünsche haben, kontaktieren Sie uns bitte völlig unverbindlich.</li>
                     </ul>
                 </div>
@@ -110,8 +105,16 @@
 
 
 
-
-
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="font-weight-bold text-secondary">WARUM SIE NACH PERU  REISEN SOLLEN</h2>
+                    <div class="sec-title-div-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="bg-light pb-4">
         <div class="container">

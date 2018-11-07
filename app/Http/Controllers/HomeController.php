@@ -24,6 +24,10 @@ class HomeController extends Controller
     {
         return view('page.tours');
     }
+    public function packages()
+    {
+        return view('page.packages');
+    }
     public function uns()
     {
         return view('page.about');

@@ -242,6 +242,11 @@
                     </div>
                 </div><!-- /.col-md-4 col -->
             </div><!-- /.row -->
+            <div class="row">
+                <div class="col text-center">
+                    <a href="{{route('packages_path')}}" class="btn btn-lg btn-info">View All Packages</a>
+                </div>
+            </div>
 
             <div class="row d-none">
 
@@ -403,13 +408,15 @@
                             <img src="{{asset('images/banners/authentish.jpg')}}" class="w-100">
                             <div class="box-content">
                                 <h3 class="title">Authentish</h3>
-                                <span class="post">View Packages</span>
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
+                                <span class="post">
+                                    <a href="{{route('packages_path')}}" class="text-white">View Packages</a>
+                                </span>
+                                {{--<ul class="social">--}}
+                                    {{--<li><a href="#"><i class="fa fa-facebook"></i></a></li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-twitter"></i></a></li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-instagram"></i></a></li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>--}}
+                                {{--</ul>--}}
                             </div>
                         </div>
                     </div>
@@ -418,13 +425,15 @@
                             <img src="{{asset('images/banners/activamente.jpg')}}" class="w-100">
                             <div class="box-content">
                                 <h3 class="title">activamente</h3>
-                                <span class="post">View Packages</span>
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
+                                <span class="post">
+                                    <a href="{{route('packages_path')}}" class="text-white">View Packages</a>
+                                </span>
+                                {{--<ul class="social">--}}
+                                    {{--<li><a href="#"><i class="fa fa-facebook"></i></a></li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-twitter"></i></a></li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-instagram"></i></a></li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>--}}
+                                {{--</ul>--}}
                             </div>
                         </div>
                     </div>
@@ -433,13 +442,15 @@
                             <img src="{{asset('images/banners/clasico.jpg')}}" class="w-100">
                             <div class="box-content">
                                 <h3 class="title">clásico</h3>
-                                <span class="post">View Packages</span>
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
+                                <span class="post">
+                                    <a href="{{route('packages_path')}}" class="text-white">View Packages</a>
+                                </span>
+                                {{--<ul class="social">--}}
+                                    {{--<li><a href="#"><i class="fa fa-facebook"></i></a></li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-twitter"></i></a></li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-instagram"></i></a></li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>--}}
+                                {{--</ul>--}}
                             </div>
                         </div>
                     </div>
@@ -669,7 +680,7 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="list-group rounded-0">
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
+                                                            <a href="{{route('itinerary_path', '3')}}" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
                                                                         <small class="font-weight-bold">Koliri Discover</small>
@@ -682,7 +693,7 @@
                                                                     </div>
                                                                 </div>
                                                             </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
+                                                            <a href="{{route('itinerary_path', '3')}}" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
                                                                         <small class="font-weight-bold">Koliri Discover</small>
@@ -695,7 +706,7 @@
                                                                     </div>
                                                                 </div>
                                                             </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
+                                                            <a href="{{route('itinerary_path', '3')}}" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
                                                                         <small class="font-weight-bold">Koliri Discover</small>
@@ -708,7 +719,7 @@
                                                                     </div>
                                                                 </div>
                                                             </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
+                                                            <a href="{{route('itinerary_path', '3')}}" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
                                                                         <small class="font-weight-bold">Koliri Discover</small>
@@ -721,7 +732,7 @@
                                                                     </div>
                                                                 </div>
                                                             </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
+                                                            <a href="{{route('itinerary_path', '3')}}" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
                                                                         <small class="font-weight-bold">Koliri Discover</small>
@@ -734,7 +745,7 @@
                                                                     </div>
                                                                 </div>
                                                             </a>
-                                                            <a href="#" class="list-group-item list-group-item-action rounded-0">
+                                                            <a href="{{route('itinerary_path', '3')}}" class="list-group-item list-group-item-action rounded-0">
                                                                 <div class="row">
                                                                     <div class="col">
                                                                         <small class="font-weight-bold">Koliri Discover</small>

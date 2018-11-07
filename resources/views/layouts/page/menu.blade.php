@@ -13,7 +13,7 @@
                         {{--<a href="" class="h5"><i class="fab fa-facebook-square"></i></a>--}}
                         {{--<a href="" class="h5"><i class="fab fa-twitter"></i></a>--}}
                         {{--<a href="" class="h5"><i class="fab fa-youtube"></i></a> |--}}
-                        <a href="#design" class="btn btn-red-primary font-weight-bold btn-lg">Pregunte Ahora</a>
+                        <a href="#design" class="btn btn-red-primary font-weight-bold btn-lg">Planen Sie Ihre Reise</a>
                     </p>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="{{route('packages_path')}}">
                                         {{--<span class="fa fa-fw fa-star"></span> --}}
                                         Reisebausteine
                                     </a>

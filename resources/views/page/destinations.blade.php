@@ -70,7 +70,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-4 mb-4">
-                    <a href="">
+                    <a href="{{route('packages_path')}}">
                         <div class="position-relative clearfix">
                             <img src="{{asset('images/destinations/amazon.jpg')}}" alt="" class="w-100 rounded">
                             <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">Amazon</span>
@@ -78,7 +78,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="">
+                    <a href="{{route('packages_path')}}">
                         <div class="position-relative clearfix">
                             <img src="{{asset('images/destinations/arequipa.jpg')}}" alt="" class="w-100 rounded">
                             <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">Arequipa</span>
@@ -86,7 +86,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="">
+                    <a href="{{route('packages_path')}}">
                         <div class="position-relative clearfix">
                             <img src="{{asset('images/destinations/ballestas-islands.jpg')}}" alt="" class="w-100 rounded">
                             <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">Ballestas</span>
@@ -94,7 +94,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="">
+                    <a href="{{route('packages_path')}}">
                         <div class="position-relative clearfix">
                             <img src="{{asset('images/destinations/lake-titicaca.jpg')}}" alt="" class="w-100 rounded">
                             <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">Lake Titicaca</span>
@@ -102,7 +102,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="">
+                    <a href="{{route('packages_path')}}">
                         <div class="position-relative clearfix">
                             <img src="{{asset('images/destinations/lima.jpg')}}" alt="" class="w-100 rounded">
                             <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">Lima</span>
@@ -110,7 +110,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="">
+                    <a href="{{route('packages_path')}}">
                         <div class="position-relative clearfix">
                             <img src="{{asset('images/destinations/lima.jpg')}}" alt="" class="w-100 rounded">
                             <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">Lima</span>
@@ -118,7 +118,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="">
+                    <a href="{{route('packages_path')}}">
                         <div class="position-relative clearfix">
                             <img src="{{asset('images/destinations/machupicchu.jpg')}}" alt="" class="w-100 rounded">
                             <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">Machu Picchu</span>
@@ -126,7 +126,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="">
+                    <a href="{{route('packages_path')}}">
                         <div class="position-relative clearfix">
                             <img src="{{asset('images/destinations/mancora.jpg')}}" alt="" class="w-100 rounded">
                             <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">Mancora</span>
@@ -134,7 +134,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="">
+                    <a href="{{route('packages_path')}}">
                         <div class="position-relative clearfix">
                             <img src="{{asset('images/destinations/paracas.jpg')}}" alt="" class="w-100 rounded">
                             <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">Paracas</span>
@@ -148,7 +148,16 @@
 
 
 
-
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="font-weight-bold text-secondary">WARUM SIE NACH PERU  REISEN SOLLEN</h2>
+                    <div class="sec-title-div-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="bg-light pb-4">
         <div class="container">

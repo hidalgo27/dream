@@ -72,155 +72,197 @@
 
     <section class="my-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-4 mb-4">
-                    <a href="">
-                        <div class="position-relative clearfix">
-                            <img src="{{asset('images/destinations/amazon.jpg')}}" alt="" class="w-100 rounded">
-                            <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">17 TAGE</span>
+            <div class="row">
+                <div class="col-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100"></a>
+                            </div>
                         </div>
-                    </a>
-                    {{--<div class="row mt-2">--}}
-                        {{--<div class="col text-center">--}}
-                            {{--<h5><i class="fas fa-map-marker-alt"></i> Destinations:</h5>--}}
-                            {{--<a href="" data-toggle="tooltip" data-placement="top" title="Amazon"><img src="{{asset('images/destinations/amazon.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                            {{--<a href="" data-toggle="tooltip" data-placement="top" title="Lima"><img src="{{asset('images/destinations/lima.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                            {{--<a href="" data-toggle="tooltip" data-placement="top" title="Titicaca"><img src="{{asset('images/destinations/lake-titicaca.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                            {{--<a href="" data-toggle="tooltip" data-placement="top" title="Cusco"><img src="{{asset('images/destinations/cusco.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                            {{--<a href="" data-toggle="tooltip" data-placement="top" title="Argentina"><img src="{{asset('images/destinations/argentina.jpg.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                </div>
-
-                <div class="col mb-4">
-                    <h3 class="font-weight-bold text-red-primary">GEHEIMNISVOLLES PERU (Lima-Cusco auf dem Landweg)
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Amazon"><img src="{{asset('images/destinations/amazon.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Lima"><img src="{{asset('images/destinations/lima.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Titicaca"><img src="{{asset('images/destinations/lake-titicaca.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Cusco"><img src="{{asset('images/destinations/cusco.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Argentina"><img src="{{asset('images/destinations/argentina.jpg.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                    </h3>
-                    <h4>Auf den Spuren präkolumbianischer Kulturen</h4>
-                    <ul>
-                        <li>Start entlang der Pazifikküste</li>
-                        <li>Besuch der Inselgruppen der Ballestas „ Klein-Galapagos”</li>
-                        <li>Überfliegen der sagenumwobenen Nazca- Linien</li>
-                        <li>Spektakuläre Fahrt  durch die Anden : „ Das Chalhuanca Tal “</li>
-                        <li>Intensives Erleben der Kultur der Inka intensiv erleben: Cusco- Heiliges Tal Machupicchu</li>
-                        <li>Befahren Des höchstgelegenen schiffbare See der Welt : demTiticacasee mit den schwimmenden  Insel der Uros</li>
-                        <li>Begegnung mit dem König der Anden , dem Kondor</li>
-                        <li>Staunen Über eine der tiefsten Schluchten der Welt : dem Colca -Canyon</li>
-                    </ul>
-
-                    <div class="row">
-                        <div class="col-12 text-right">
-                            <a href="" class="btn btn-red-dark text-right">Detail Program</a>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Title Packages</h4>
+                            </div>
                         </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
+                            </div>
+                        </div>
+
                     </div>
-                </div>
-
-
-            </div><!-- /.row -->
-            <hr class="my-5">
-            <div class="row align-items-center">
-                <div class="col-4 mb-4">
-                    <a href="">
-                        <div class="position-relative clearfix">
-                            <img src="{{asset('images/destinations/amazon.jpg')}}" alt="" class="w-100 rounded">
-                            <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">17 TAGE</span>
+                </div><!-- /.col-md-4 col -->
+                <div class="col-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100"></a>
+                            </div>
                         </div>
-                    </a>
-                    {{--<div class="row mt-2">--}}
-                    {{--<div class="col text-center">--}}
-                    {{--<h5><i class="fas fa-map-marker-alt"></i> Destinations:</h5>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Amazon"><img src="{{asset('images/destinations/amazon.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Lima"><img src="{{asset('images/destinations/lima.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Titicaca"><img src="{{asset('images/destinations/lake-titicaca.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Cusco"><img src="{{asset('images/destinations/cusco.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Argentina"><img src="{{asset('images/destinations/argentina.jpg.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
-                </div>
-
-                <div class="col mb-4">
-                    <h3 class="font-weight-bold text-red-primary">GEHEIMNISVOLLES PERU (Lima-Cusco auf dem Landweg)
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Amazon"><img src="{{asset('images/destinations/amazon.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Lima"><img src="{{asset('images/destinations/lima.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Titicaca"><img src="{{asset('images/destinations/lake-titicaca.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Cusco"><img src="{{asset('images/destinations/cusco.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Argentina"><img src="{{asset('images/destinations/argentina.jpg.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                    </h3>
-                    <h4>Auf den Spuren präkolumbianischer Kulturen</h4>
-                    <ul>
-                        <li>Start entlang der Pazifikküste</li>
-                        <li>Besuch der Inselgruppen der Ballestas „ Klein-Galapagos”</li>
-                        <li>Überfliegen der sagenumwobenen Nazca- Linien</li>
-                        <li>Spektakuläre Fahrt  durch die Anden : „ Das Chalhuanca Tal “</li>
-                        <li>Intensives Erleben der Kultur der Inka intensiv erleben: Cusco- Heiliges Tal Machupicchu</li>
-                        <li>Befahren Des höchstgelegenen schiffbare See der Welt : demTiticacasee mit den schwimmenden  Insel der Uros</li>
-                        <li>Begegnung mit dem König der Anden , dem Kondor</li>
-                        <li>Staunen Über eine der tiefsten Schluchten der Welt : dem Colca -Canyon</li>
-                    </ul>
-
-                    <div class="row">
-                        <div class="col-12 text-right">
-                            <a href="" class="btn btn-red-dark text-right">Detail Program</a>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Title Packages</h4>
+                            </div>
                         </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
+                            </div>
+                        </div>
+
                     </div>
-                </div>
-
-
-            </div><!-- /.row -->
-            <hr class="my-5">
-            <div class="row align-items-center">
-                <div class="col-4 mb-4">
-                    <a href="">
-                        <div class="position-relative clearfix">
-                            <img src="{{asset('images/destinations/amazon.jpg')}}" alt="" class="w-100 rounded">
-                            <span class="destino-name position-absolute bg-rgba-dark-4 d-block text-white w-100 botton-10 text-center p-2 h5">17 TAGE</span>
+                </div><!-- /.col-md-4 col -->
+                <div class="col-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100"></a>
+                            </div>
                         </div>
-                    </a>
-                    {{--<div class="row mt-2">--}}
-                    {{--<div class="col text-center">--}}
-                    {{--<h5><i class="fas fa-map-marker-alt"></i> Destinations:</h5>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Amazon"><img src="{{asset('images/destinations/amazon.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Lima"><img src="{{asset('images/destinations/lima.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Titicaca"><img src="{{asset('images/destinations/lake-titicaca.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Cusco"><img src="{{asset('images/destinations/cusco.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--<a href="" data-toggle="tooltip" data-placement="top" title="Argentina"><img src="{{asset('images/destinations/argentina.jpg.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
-                </div>
-
-                <div class="col mb-4">
-                    <h3 class="font-weight-bold text-red-primary">GEHEIMNISVOLLES PERU (Lima-Cusco auf dem Landweg)
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Amazon"><img src="{{asset('images/destinations/amazon.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Lima"><img src="{{asset('images/destinations/lima.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Titicaca"><img src="{{asset('images/destinations/lake-titicaca.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Cusco"><img src="{{asset('images/destinations/cusco.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                        <a href="" data-toggle="tooltip" data-placement="top" title="Argentina"><img src="{{asset('images/destinations/argentina.jpg.jpg')}}" alt="" width="30" height="30" class="rounded-circle shadow-sm"></a>
-                    </h3>
-                    <h4>Auf den Spuren präkolumbianischer Kulturen</h4>
-                    <ul>
-                        <li>Start entlang der Pazifikküste</li>
-                        <li>Besuch der Inselgruppen der Ballestas „ Klein-Galapagos”</li>
-                        <li>Überfliegen der sagenumwobenen Nazca- Linien</li>
-                        <li>Spektakuläre Fahrt  durch die Anden : „ Das Chalhuanca Tal “</li>
-                        <li>Intensives Erleben der Kultur der Inka intensiv erleben: Cusco- Heiliges Tal Machupicchu</li>
-                        <li>Befahren Des höchstgelegenen schiffbare See der Welt : demTiticacasee mit den schwimmenden  Insel der Uros</li>
-                        <li>Begegnung mit dem König der Anden , dem Kondor</li>
-                        <li>Staunen Über eine der tiefsten Schluchten der Welt : dem Colca -Canyon</li>
-                    </ul>
-
-                    <div class="row">
-                        <div class="col-12 text-right">
-                            <a href="" class="btn btn-red-dark text-right">Detail Program</a>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Title Packages</h4>
+                            </div>
                         </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
+                            </div>
+                        </div>
+
                     </div>
-                </div>
+                </div><!-- /.col-md-4 col -->
+                <div class="col-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100"></a>
+                            </div>
+                        </div>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Title Packages</h4>
+                            </div>
+                        </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
+                            </div>
+                        </div>
 
+                    </div>
+                </div><!-- /.col-md-4 col -->
+                <div class="col-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100"></a>
+                            </div>
+                        </div>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Title Packages</h4>
+                            </div>
+                        </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
+                            </div>
+                        </div>
 
-            </div><!-- /.row -->
+                    </div>
+                </div><!-- /.col-md-4 col -->
+                <div class="col-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100"></a>
+                            </div>
+                        </div>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Title Packages</h4>
+                            </div>
+                        </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.col-md-4 col -->
+                <div class="col-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                    <div class="gallary-1">
+                        <div class="row">
+                            <div class="col">
+                                <a href="{{route('itinerary_path', 'title')}}"><img src="{{asset('images/banners/home/lima.jpg')}}" alt="content area" class="w-100"></a>
+                            </div>
+                        </div>
+                        <div class="row px-3">
+                            <div class="col">
+                                <h4 class="text-left my-3">Title Packages</h4>
+                            </div>
+                        </div>
+                        <div class="row px-3 pb-3">
+                            <div class="col-3">
+                                <div class="gym-class bg-red-light font-weight-bold text-center">
+                                    <p class="date text-white m-0">22</p>
+                                    <p class="days text-white m-0 font-weight-normal">days</p>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <p class="text-left m-0 font-weight-bold text-secondary">Destinations:</p>
+                                <p class="text-left m-0 small text-red-primary">Lima, Cusco, Arequipa, Machu Picchu.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /.col-md-4 col -->
+            </div>
         </div><!-- /.container -->
     </section><!-- /.item -->
 
